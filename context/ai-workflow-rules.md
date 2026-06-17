@@ -2,7 +2,9 @@
 
 ## Approach
 
-Build this project incrementally using a spec-driven workflow. Context files define what to build, how to build it, and what the current state of progress is. Always implement against these specs — do not infer or invent behavior from scratch.
+Build this project incrementally using a spec-driven workflow. The context files define what to build, how to build it, and the current state of progress. Each numbered file in `context/feature-specs/` converts part of the problem into an implementable feature. Implement one feature spec at a time, in order, and always implement against the specs — do not infer or invent behavior from scratch.
+
+The flow is: understand the problem from the context docs → pick the next `feature-specs/NN-*.md` → implement it → update `progress-tracker.md`. If a feature spec and the context docs disagree, resolve it in the docs before writing code.
 
 ## Scoping Rules
 
