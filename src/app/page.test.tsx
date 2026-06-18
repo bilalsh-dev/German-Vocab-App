@@ -1,9 +1,11 @@
 import { render, screen } from "@testing-library/react";
-import Home from "./page";
+import DecksPage from "./page";
 
-describe("Home page", () => {
-  it("renders the Wortbox label", () => {
-    render(<Home />);
-    expect(screen.getByText("Wortbox")).toBeInTheDocument();
+describe("Decks page", () => {
+  it("renders the Decks heading", () => {
+    render(<DecksPage />);
+    expect(
+      screen.getByRole("heading", { name: "Decks" }),
+    ).toBeInTheDocument();
   });
 });
