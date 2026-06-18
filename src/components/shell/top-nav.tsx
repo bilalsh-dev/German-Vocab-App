@@ -2,14 +2,14 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BarChart3, Box, GraduationCap, Languages, Layers } from "lucide-react";
+import { useTranslations } from "next-intl";
+import { BarChart3, Box, GraduationCap, Layers } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { LocaleSwitcher } from "@/components/shell/locale-switcher";
 
 interface NavItem {
-  key: string;
-  label: string;
+  key: "decks" | "study" | "stats";
   href: string;
   icon: LucideIcon;
   isActive: (pathname: string) => boolean;
@@ -18,21 +18,18 @@ interface NavItem {
 const navItems: NavItem[] = [
   {
     key: "decks",
-    label: "Decks",
     href: "/",
     icon: Layers,
     isActive: (pathname) => pathname === "/",
   },
   {
     key: "study",
-    label: "Study",
     href: "/study",
     icon: GraduationCap,
     isActive: (pathname) => pathname.startsWith("/study"),
   },
   {
     key: "stats",
-    label: "Stats",
     href: "/stats",
     icon: BarChart3,
     isActive: (pathname) => pathname.startsWith("/stats"),
@@ -41,6 +38,8 @@ const navItems: NavItem[] = [
 
 export function TopNav() {
   const pathname = usePathname();
+  const t = useTranslations("nav");
+  const tApp = useTranslations("app");
 
   return (
     <header className="sticky top-0 z-40 border-b border-surface-border bg-surface">
@@ -50,7 +49,7 @@ export function TopNav() {
           className="flex items-center gap-2 font-semibold text-copy-primary"
         >
           <Box className="h-5 w-5 text-brand" />
-          <span>Wortbox</span>
+          <span>{tApp("name")}</span>
         </Link>
 
         <ul className="flex items-center gap-1">
@@ -70,7 +69,7 @@ export function TopNav() {
                   )}
                 >
                   <Icon className="h-4 w-4" />
-                  <span className="hidden sm:inline">{item.label}</span>
+                  <span className="hidden sm:inline">{t(item.key)}</span>
                 </Link>
               </li>
             );
@@ -78,15 +77,7 @@ export function TopNav() {
         </ul>
 
         <div className="flex items-center">
-          <Button
-            variant="ghost"
-            size="sm"
-            disabled
-            className="gap-2 text-copy-muted"
-          >
-            <Languages className="h-4 w-4" />
-            <span className="hidden sm:inline">EN</span>
-          </Button>
+          <LocaleSwitcher />
         </div>
       </nav>
     </header>

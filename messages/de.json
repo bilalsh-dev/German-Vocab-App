@@ -1,0 +1,30 @@
+{
+  "app": {
+    "name": "Wortbox"
+  },
+  "nav": {
+    "decks": "Stapel",
+    "study": "Lernen",
+    "stats": "Statistik"
+  },
+  "footer": {
+    "tagline": "Wortbox — Deutsch-A1-Vokabeltrainer",
+    "meta": "Lokal · v0.1"
+  },
+  "decks": {
+    "title": "Stapel",
+    "empty": "Deine Stapel erscheinen hier."
+  },
+  "study": {
+    "title": "Lernen",
+    "pickDeck": "Wähle einen Stapel, um eine Lernsitzung zu starten.",
+    "session": "Lernsitzung für Stapel {deckId}."
+  },
+  "stats": {
+    "title": "Statistik",
+    "empty": "Dein Fortschritt und deine Vorschau erscheinen hier."
+  },
+  "common": {
+    "switchLanguage": "Sprache wechseln"
+  }
+}

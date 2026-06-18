@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import { getLocale } from "next-intl/server";
 import "./globals.css";
 import { TopNav } from "@/components/shell/top-nav";
 import { Footer } from "@/components/shell/footer";
@@ -19,22 +21,26 @@ export const metadata: Metadata = {
   description: "A personal spaced-repetition vocabulary trainer.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+
   return (
     <html
-      lang="en"
+      lang={locale}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <TopNav />
-        <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col px-4 py-8">
-          {children}
-        </main>
-        <Footer />
+        <NextIntlClientProvider>
+          <TopNav />
+          <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col px-4 py-8">
+            {children}
+          </main>
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

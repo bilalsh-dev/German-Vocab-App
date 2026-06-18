@@ -3,10 +3,10 @@
 Update this file whenever the current phase, active feature, or implementation state changes.
 
 ## Current Phase
-- Spec-driven setup complete. Implementation begins at Feature 01.
+- Feature 03 (i18n) complete. Next: Feature 04 (card data model + Dexie storage).
 
 ## Current Goal
-- Feature 01 — Design system & UI primitives (`context/feature-specs/01-design-system.md`): shadcn/ui, `lib/utils.ts` `cn()`, and the full token set in `globals.css` (theme + gender + state colors, vowel-mark styling).
+- Feature 04 — card data model (`context/feature-specs/04-card-data-model.md`): `lib/content` types + `lib/db` Dexie stores for cards/decks/reviewLog/settings. Migrate the UI-language preference from the `wortbox.locale` cookie into the `settings` store.
 
 ## Completed
 - Project scaffolded: Next.js 16 (App Router) + React 19 + TypeScript + Tailwind 4, pnpm. (commit `01a595e`)
@@ -14,6 +14,9 @@ Update this file whenever the current phase, active feature, or implementation s
 - Boilerplate cleaned: `globals.css` stripped to `@import "tailwindcss";`, all `public/*.svg` removed, minimal `app/page.tsx` rendering the app name.
 - Project named **Wortbox**. (commit `38fe462`)
 - Context docs rewritten to capture the full problem: German A1, English-front cards, the Card Content Model (gender colors, vowel-length marks, verb forms, related words, opposites/synonyms, topics/tags, examples), and bilingual (EN/DE) UI.
+- **Feature 01 — Design system & UI primitives:** full token set in `globals.css` (theme + state + gender) with `@theme inline` Tailwind mappings, light-mode values under `prefers-color-scheme: light`, and vowel-length mark styling (`.vowel-long` underline / `.vowel-short` positioned-dot). `lib/utils.ts` `cn()` helper. shadcn/ui (new-york) configured via `components.json`; all 10 primitives installed (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea, Badge, Select, Tooltip). `lucide-react` installed. Geist Sans/Mono loaded in `app/layout.tsx`. `test` / `lint` / `build` all pass.
+- **Feature 02 — App shell:** `components/shell/top-nav.tsx` (client; sticky, `bg-surface`, bottom border, Wortbox logo, Decks/Study/Stats nav reflecting the active route via `usePathname`, responsive icon-only collapse on narrow viewports, disabled language-switcher placeholder slot for Feature 03) and `components/shell/footer.tsx` (slim, muted, app meta). Wired into `app/layout.tsx`: `body` is `min-h-full flex flex-col`, content `<main>` is centered (`max-w-5xl`) and `flex-1`, footer pinned to bottom. Placeholder route pages added: `/` (decks), `/study` (landing), `/study/[deckId]` (review session), `/stats`. All copy is plain placeholder text, swappable to i18n keys in Feature 03. `test` / `lint` / `build` all pass.
+- **Feature 03 — i18n (EN/DE):** `next-intl@4` configured **without i18n routing** (no `[locale]` URL segment — fits the local-first single-window app). `next.config.ts` wraps with `createNextIntlPlugin("./src/i18n/request.ts")`. `src/i18n/config.ts` (`locales`/`defaultLocale`/`isLocale`), `src/i18n/locale.ts` (`"use server"` cookie get/set), `src/i18n/request.ts` (`getRequestConfig` reading the cookie + importing messages), `src/global.d.ts` (typed `AppConfig` for key-checked translations). Messages in `messages/en.json` + `messages/de.json` (mirrored: `app`/`nav`/`footer`/`decks`/`study`/`stats`/`common`). `app/layout.tsx` is now async: `getLocale()` → `<html lang>` + `NextIntlClientProvider`. `components/shell/locale-switcher.tsx` (client) toggles EN↔DE via the `setUserLocale` Server Action (auto re-renders). Top-nav, footer, and all four route pages resolve every string through `useTranslations` / `getTranslations` (no hardcoded UI text). Verified via curl: no cookie → `lang="en"` + English; `wortbox.locale=de` cookie → `lang="de"` + German, server-rendered on first paint. `test` / `lint` / `build` all pass.
 
 ## Feature Roadmap (`context/feature-specs/`)
 1. `01-design-system.md` — shadcn/ui, `cn()`, design tokens (theme + gender + state), vowel-mark styling.
@@ -31,12 +34,10 @@ Update this file whenever the current phase, active feature, or implementation s
 - None.
 
 ## Next Up
-- Implement Feature 01, then proceed through the roadmap in order.
+- Implement Feature 04 (card data model + Dexie storage), then proceed through the roadmap in order.
 
 ## Open Questions
-- Light-mode values for all tokens (theme + gender) need finalizing during Feature 01.
 - Exact A1 word list / source for the starter deck (Feature 09) — needs the learner's coursebook scope (e.g. Netzwerk A1 chapters).
-- i18n library is specced as `next-intl`; confirm before install in Feature 03 if a different one is preferred.
 
 ## Architecture Decisions
 - v1 is local-first: IndexedDB (Dexie) is the single source of truth; no server DB, no auth. (`architecture-context.md`)
@@ -54,3 +55,6 @@ Update this file whenever the current phase, active feature, or implementation s
 - 2026-06-17: Captured the full German A1 problem statement in the context docs and produced the feature-spec roadmap (01–10).
 - 2026-06-17: Added switchable study direction (English-front default / German-front / Mix) as a presentation setting over a shared schedule; threaded through overview, architecture, UI, and specs 04/05/07.
 - 2026-06-17: Compared spaced-repetition npm packages and chose **FSRS via `ts-fsrs`** as the v1 algorithm (instead of hand-rolling SM-2); updated overview, architecture, and specs 04/07.
+- 2026-06-18: Completed Feature 01 (design system & UI primitives) — verified tokens, light-mode values, `@theme inline` mappings, vowel-mark CSS, `cn()`, all 10 shadcn components, lucide-react, and Geist fonts. `test`, `lint`, `build` all pass. Resolved the light-mode open question.
+- 2026-06-18: Completed Feature 02 (app shell) — top nav, footer, layout wiring, and placeholder route pages. **Decision:** the spec lists a "Study" nav item but defines only `/study/[deckId]`; added a `/study` placeholder landing as the natural parent so the nav item has a destination (pick a deck). Nav active state matches `/study` and `/study/[deckId]`. Updated the home page test to assert the new "Decks" heading.
+- 2026-06-18: Completed Feature 03 (i18n) with `next-intl@4` in no-routing mode. **Decision (owner-confirmed):** persist the interim UI-language choice in a **cookie** (`wortbox.locale`) instead of the spec's `localStorage`, because the cookie is readable server-side so SSR renders the correct locale on first paint — `localStorage` would cause a client-only resolution with a hydration mismatch/flash. Updated `03-i18n.md` to record this. Resolved the i18n-library open question (kept `next-intl` per "continue with feature 3"). Routes are now dynamic (`ƒ`) since they read the cookie. Pages use `useTranslations` (sync, server-component-safe); the async `/study/[deckId]` page uses `getTranslations`. Migrate the cookie to the `settings` store in Feature 04.
