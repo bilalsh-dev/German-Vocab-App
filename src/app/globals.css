@@ -1,1 +1,149 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --base: #0a0a0b;
+  --surface: #16161a;
+  --surface-raised: #1f1f25;
+  --surface-border: #26262c;
+  --copy-primary: #ededf0;
+  --copy-muted: #9a9aa5;
+  --brand: #7c5cff;
+  --accent: #22d3ee;
+  --accent-dim: #123842;
+
+  --state-error: #f87171;
+  --state-success: #34d399;
+  --state-warning: #fbbf24;
+
+  --gender-masc: #60a5fa;
+  --gender-fem: #f87171;
+  --gender-neuter: #4ade80;
+
+  --radius-inline: 0.75rem;
+  --radius-card: 1rem;
+  --radius-modal: 1.5rem;
+
+  /* shadcn/ui semantic tokens — aliased onto the project palette above so the
+     primitive components stay default while rendering in the Wortbox theme. */
+  --background: var(--base);
+  --foreground: var(--copy-primary);
+  --card: var(--surface);
+  --card-foreground: var(--copy-primary);
+  --popover: var(--surface-raised);
+  --popover-foreground: var(--copy-primary);
+  --primary: var(--brand);
+  --primary-foreground: #f5f3ff;
+  --secondary: var(--surface-raised);
+  --secondary-foreground: var(--copy-primary);
+  --muted: var(--surface);
+  --muted-foreground: var(--copy-muted);
+  --accent-foreground: var(--base);
+  --destructive: var(--state-error);
+  --destructive-foreground: #fafafa;
+  --border: var(--surface-border);
+  --input: var(--surface-border);
+  --ring: var(--brand);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --base: #f7f7f8;
+    --surface: #ffffff;
+    --surface-raised: #f0f0f3;
+    --surface-border: #d9d9e0;
+    --copy-primary: #16161a;
+    --copy-muted: #5c5c66;
+    --brand: #5b3df0;
+    --accent: #0891b2;
+    --accent-dim: #cffafe;
+
+    --state-error: #dc2626;
+    --state-success: #059669;
+    --state-warning: #d97706;
+
+    --gender-masc: #2563eb;
+    --gender-fem: #dc2626;
+    --gender-neuter: #16a34a;
+
+    --primary-foreground: #f5f3ff;
+    --accent-foreground: #ffffff;
+    --destructive-foreground: #ffffff;
+  }
+}
+
+@theme inline {
+  --color-base: var(--base);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-border: var(--surface-border);
+  --color-copy-primary: var(--copy-primary);
+  --color-copy-muted: var(--copy-muted);
+  --color-brand: var(--brand);
+  --color-accent: var(--accent);
+  --color-accent-dim: var(--accent-dim);
+
+  --color-state-error: var(--state-error);
+  --color-state-success: var(--state-success);
+  --color-state-warning: var(--state-warning);
+
+  --color-gender-masc: var(--gender-masc);
+  --color-gender-fem: var(--gender-fem);
+  --color-gender-neuter: var(--gender-neuter);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+}
+
+body {
+  background-color: var(--base);
+  color: var(--copy-primary);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+.vowel-long {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
+}
+
+.vowel-short {
+  position: relative;
+}
+
+.vowel-short::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -0.18em;
+  width: 0.12em;
+  height: 0.12em;
+  border-radius: 9999px;
+  background-color: currentColor;
+  transform: translateX(-50%);
+}
