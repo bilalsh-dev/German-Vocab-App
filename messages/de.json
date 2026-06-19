@@ -24,6 +24,16 @@
     "title": "Statistik",
     "empty": "Dein Fortschritt und deine Vorschau erscheinen hier."
   },
+  "card": {
+    "plural": "Plural",
+    "praesens": "Präsens",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt",
+    "opposites": "Gegenteile",
+    "synonyms": "Synonyme",
+    "related": "Verwandte Wörter",
+    "examples": "Beispiele"
+  },
   "common": {
     "switchLanguage": "Sprache wechseln"
   }

@@ -139,6 +139,8 @@ export interface ReviewLogEntry {
 
 export type StudyDirection = "english-front" | "german-front" | "mix";
 
+export type PromptSide = "english" | "german";
+
 export interface SchedulerParams {
   algorithm: SchedulingAlgorithm;
   requestRetention: number;

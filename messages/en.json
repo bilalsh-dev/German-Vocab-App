@@ -24,6 +24,16 @@
     "title": "Stats",
     "empty": "Your progress and forecast will appear here."
   },
+  "card": {
+    "plural": "Plural",
+    "praesens": "Präsens",
+    "praeteritum": "Präteritum",
+    "perfekt": "Perfekt",
+    "opposites": "Opposites",
+    "synonyms": "Synonyms",
+    "related": "Related words",
+    "examples": "Examples"
+  },
   "common": {
     "switchLanguage": "Switch language"
   }
