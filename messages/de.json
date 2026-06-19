@@ -24,6 +24,7 @@
     "description": "Beschreibung",
     "descriptionPlaceholder": "Optional",
     "rename": "Umbenennen",
+    "study": "Lernen",
     "delete": "Stapel löschen",
     "deleteTitle": "Stapel löschen?",
     "deleteConfirm": "Dies löscht „{name}“ und alle zugehörigen Karten dauerhaft.",
@@ -114,7 +115,37 @@
   "study": {
     "title": "Lernen",
     "pickDeck": "Wähle einen Stapel, um eine Lernsitzung zu starten.",
-    "session": "Lernsitzung für Stapel {deckId}."
+    "session": "Lernsitzung für Stapel {deckId}.",
+    "loading": "Sitzung wird geladen…",
+    "notFound": "Stapel nicht gefunden.",
+    "backToDecks": "Stapel",
+    "backToDeck": "Zurück zum Stapel",
+    "remaining": "{count, plural, =1 {# Karte übrig} other {# Karten übrig}}",
+    "reveal": "Antwort zeigen",
+    "flipHint": "Leertaste zum Aufdecken · 1–4 zum Bewerten",
+    "direction": "Richtung",
+    "directions": {
+      "english-front": "EN → DE",
+      "german-front": "DE → EN",
+      "mix": "Gemischt"
+    },
+    "noneDue": "Gerade nichts fällig. Dieser Stapel ist auf dem neuesten Stand.",
+    "grades": {
+      "again": "Nochmal",
+      "hard": "Schwer",
+      "good": "Gut",
+      "easy": "Leicht"
+    },
+    "interval": {
+      "minute": "{value, plural, =1 {1 Min} other {# Min}}",
+      "hour": "{value, plural, =1 {1 Std} other {# Std}}",
+      "day": "{value, plural, =1 {1 Tag} other {# Tage}}",
+      "month": "{value, plural, =1 {1 Mon} other {# Mon}}",
+      "year": "{value, plural, =1 {1 J} other {# J}}"
+    },
+    "summaryTitle": "Sitzung abgeschlossen",
+    "summaryReviewed": "{count, plural, =1 {# Wiederholung} other {# Wiederholungen}}",
+    "summaryLapses": "{count, plural, =1 {# Patzer} other {# Patzer}}"
   },
   "stats": {
     "title": "Statistik",

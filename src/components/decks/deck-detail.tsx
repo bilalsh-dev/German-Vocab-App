@@ -4,7 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import { ArrowLeft, Pencil, Trash2 } from "lucide-react";
+import { ArrowLeft, GraduationCap, Pencil, Trash2 } from "lucide-react";
 
 import { deleteDeck, getDeck } from "@/lib/db";
 import type { Deck } from "@/lib/content";
@@ -89,6 +89,12 @@ export function DeckDetail({ deckId }: DeckDetailProps) {
             ) : null}
           </div>
           <div className="flex gap-2">
+            <Button asChild>
+              <Link href={`/study/${deck.id}`}>
+                <GraduationCap />
+                {t("study")}
+              </Link>
+            </Button>
             <Button variant="outline" onClick={() => setRenameOpen(true)}>
               <Pencil />
               {t("rename")}

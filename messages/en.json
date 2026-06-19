@@ -24,6 +24,7 @@
     "description": "Description",
     "descriptionPlaceholder": "Optional",
     "rename": "Rename",
+    "study": "Study",
     "delete": "Delete deck",
     "deleteTitle": "Delete deck?",
     "deleteConfirm": "This permanently deletes “{name}” and all of its cards.",
@@ -114,7 +115,37 @@
   "study": {
     "title": "Study",
     "pickDeck": "Pick a deck to start a review session.",
-    "session": "Review session for deck {deckId}."
+    "session": "Review session for deck {deckId}.",
+    "loading": "Loading session…",
+    "notFound": "Deck not found.",
+    "backToDecks": "Decks",
+    "backToDeck": "Back to deck",
+    "remaining": "{count, plural, =1 {# card left} other {# cards left}}",
+    "reveal": "Show answer",
+    "flipHint": "Press space to reveal · 1–4 to grade",
+    "direction": "Direction",
+    "directions": {
+      "english-front": "EN → DE",
+      "german-front": "DE → EN",
+      "mix": "Mix"
+    },
+    "noneDue": "Nothing due right now. This deck is all caught up.",
+    "grades": {
+      "again": "Again",
+      "hard": "Hard",
+      "good": "Good",
+      "easy": "Easy"
+    },
+    "interval": {
+      "minute": "{value, plural, =1 {1 min} other {# min}}",
+      "hour": "{value, plural, =1 {1 hr} other {# hr}}",
+      "day": "{value, plural, =1 {1 day} other {# days}}",
+      "month": "{value, plural, =1 {1 mo} other {# mo}}",
+      "year": "{value, plural, =1 {1 yr} other {# yr}}"
+    },
+    "summaryTitle": "Session complete",
+    "summaryReviewed": "{count, plural, =1 {# review} other {# reviews}}",
+    "summaryLapses": "{count, plural, =1 {# lapse} other {# lapses}}"
   },
   "stats": {
     "title": "Stats",
