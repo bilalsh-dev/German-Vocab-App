@@ -1,5 +1,23 @@
 import type { SchedulingAlgorithm, SchedulingState } from "./types";
 
+export function isNewScheduling(state: SchedulingState): boolean {
+  switch (state.algorithm) {
+    case "fsrs":
+      return state.state === "new";
+    case "sm2":
+      return state.repetition === 0;
+    case "leitner":
+      return state.box === 0;
+  }
+}
+
+export function isDueScheduling(
+  state: SchedulingState,
+  now: number = Date.now(),
+): boolean {
+  return state.due <= now;
+}
+
 export function initialSchedulingState(
   algorithm: SchedulingAlgorithm,
   now: number,

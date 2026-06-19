@@ -13,7 +13,103 @@
   },
   "decks": {
     "title": "Decks",
-    "empty": "Your decks will appear here."
+    "empty": "No decks yet. Create your first deck to start adding cards.",
+    "loading": "Loading decks…",
+    "notFound": "Deck not found.",
+    "create": "Create deck",
+    "createTitle": "New deck",
+    "renameTitle": "Rename deck",
+    "name": "Name",
+    "namePlaceholder": "e.g. Familie",
+    "description": "Description",
+    "descriptionPlaceholder": "Optional",
+    "rename": "Rename",
+    "delete": "Delete deck",
+    "deleteTitle": "Delete deck?",
+    "deleteConfirm": "This permanently deletes “{name}” and all of its cards.",
+    "due": "Due",
+    "new": "New",
+    "total": "Total"
+  },
+  "cards": {
+    "title": "Cards",
+    "add": "Add card",
+    "empty": "No cards yet. Add your first card.",
+    "noMatches": "No cards match the current filter.",
+    "loading": "Loading cards…",
+    "addTitle": "New card",
+    "editTitle": "Edit card",
+    "deleteTitle": "Delete card?",
+    "deleteConfirm": "This permanently deletes “{word}”.",
+    "filterTopic": "Topic",
+    "filterTag": "Tag",
+    "allTopics": "All topics",
+    "allTags": "All tags",
+    "preview": "Preview",
+    "fields": {
+      "english": "English (front)",
+      "german": "German (back)",
+      "partOfSpeech": "Part of speech",
+      "gender": "Gender",
+      "plural": "Plural",
+      "auxiliary": "Auxiliary",
+      "opposites": "Opposites",
+      "synonyms": "Synonyms",
+      "related": "Related words",
+      "examples": "Examples",
+      "topic": "Topic",
+      "tags": "Tags",
+      "tagsHint": "Comma-separated",
+      "listHint": "Comma-separated",
+      "notes": "Notes",
+      "vowelMarks": "Vowel length",
+      "vowelMarksHint": "Click a vowel to cycle long → short → unmarked.",
+      "relation": "Relation",
+      "verbForm": "Form",
+      "exampleGerman": "German sentence",
+      "exampleEnglish": "English translation",
+      "relatedGerman": "German",
+      "relatedEnglish": "English",
+      "addExample": "Add example",
+      "addRelated": "Add related word"
+    },
+    "pos": {
+      "noun": "Noun",
+      "verb": "Verb",
+      "adjective": "Adjective",
+      "adverb": "Adverb",
+      "phrase": "Phrase",
+      "other": "Other"
+    },
+    "genders": {
+      "masculine": "Masculine (der)",
+      "feminine": "Feminine (die)",
+      "neuter": "Neuter (das)"
+    },
+    "auxiliaries": {
+      "haben": "haben",
+      "sein": "sein"
+    },
+    "relations": {
+      "nominalization": "Nominalization",
+      "derived": "Derived",
+      "compound": "Compound",
+      "related": "Related"
+    },
+    "verbForms": {
+      "none": "—",
+      "praesens": "Präsens",
+      "praeteritum": "Präteritum",
+      "perfekt": "Perfekt"
+    },
+    "errors": {
+      "englishRequired": "English is required.",
+      "germanRequired": "German is required.",
+      "topicRequired": "Topic is required.",
+      "nounGenderRequired": "A noun needs a gender.",
+      "nounPluralRequired": "A noun needs a plural form.",
+      "verbFormsRequired": "A verb needs all three forms (Präsens, Präteritum, Perfekt)."
+    }
   },
   "study": {
     "title": "Study",
@@ -35,6 +131,14 @@
     "examples": "Examples"
   },
   "common": {
-    "switchLanguage": "Switch language"
+    "switchLanguage": "Switch language",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create": "Create",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "back": "Back"
   }
 }

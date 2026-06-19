@@ -13,7 +13,103 @@
   },
   "decks": {
     "title": "Stapel",
-    "empty": "Deine Stapel erscheinen hier."
+    "empty": "Noch keine Stapel. Erstelle deinen ersten Stapel, um Karten hinzuzufügen.",
+    "loading": "Stapel werden geladen…",
+    "notFound": "Stapel nicht gefunden.",
+    "create": "Stapel erstellen",
+    "createTitle": "Neuer Stapel",
+    "renameTitle": "Stapel umbenennen",
+    "name": "Name",
+    "namePlaceholder": "z. B. Familie",
+    "description": "Beschreibung",
+    "descriptionPlaceholder": "Optional",
+    "rename": "Umbenennen",
+    "delete": "Stapel löschen",
+    "deleteTitle": "Stapel löschen?",
+    "deleteConfirm": "Dies löscht „{name}“ und alle zugehörigen Karten dauerhaft.",
+    "due": "Fällig",
+    "new": "Neu",
+    "total": "Gesamt"
+  },
+  "cards": {
+    "title": "Karten",
+    "add": "Karte hinzufügen",
+    "empty": "Noch keine Karten. Füge deine erste Karte hinzu.",
+    "noMatches": "Keine Karten entsprechen dem aktuellen Filter.",
+    "loading": "Karten werden geladen…",
+    "addTitle": "Neue Karte",
+    "editTitle": "Karte bearbeiten",
+    "deleteTitle": "Karte löschen?",
+    "deleteConfirm": "Dies löscht „{word}“ dauerhaft.",
+    "filterTopic": "Thema",
+    "filterTag": "Tag",
+    "allTopics": "Alle Themen",
+    "allTags": "Alle Tags",
+    "preview": "Vorschau",
+    "fields": {
+      "english": "Englisch (Vorderseite)",
+      "german": "Deutsch (Rückseite)",
+      "partOfSpeech": "Wortart",
+      "gender": "Genus",
+      "plural": "Plural",
+      "auxiliary": "Hilfsverb",
+      "opposites": "Gegenteile",
+      "synonyms": "Synonyme",
+      "related": "Verwandte Wörter",
+      "examples": "Beispiele",
+      "topic": "Thema",
+      "tags": "Tags",
+      "tagsHint": "Kommagetrennt",
+      "listHint": "Kommagetrennt",
+      "notes": "Notizen",
+      "vowelMarks": "Vokallänge",
+      "vowelMarksHint": "Klicke einen Vokal: lang → kurz → ohne Markierung.",
+      "relation": "Beziehung",
+      "verbForm": "Form",
+      "exampleGerman": "Deutscher Satz",
+      "exampleEnglish": "Englische Übersetzung",
+      "relatedGerman": "Deutsch",
+      "relatedEnglish": "Englisch",
+      "addExample": "Beispiel hinzufügen",
+      "addRelated": "Verwandtes Wort hinzufügen"
+    },
+    "pos": {
+      "noun": "Nomen",
+      "verb": "Verb",
+      "adjective": "Adjektiv",
+      "adverb": "Adverb",
+      "phrase": "Wendung",
+      "other": "Sonstiges"
+    },
+    "genders": {
+      "masculine": "Maskulin (der)",
+      "feminine": "Feminin (die)",
+      "neuter": "Neutrum (das)"
+    },
+    "auxiliaries": {
+      "haben": "haben",
+      "sein": "sein"
+    },
+    "relations": {
+      "nominalization": "Nominalisierung",
+      "derived": "Ableitung",
+      "compound": "Kompositum",
+      "related": "Verwandt"
+    },
+    "verbForms": {
+      "none": "—",
+      "praesens": "Präsens",
+      "praeteritum": "Präteritum",
+      "perfekt": "Perfekt"
+    },
+    "errors": {
+      "englishRequired": "Englisch ist erforderlich.",
+      "germanRequired": "Deutsch ist erforderlich.",
+      "topicRequired": "Thema ist erforderlich.",
+      "nounGenderRequired": "Ein Nomen braucht ein Genus.",
+      "nounPluralRequired": "Ein Nomen braucht eine Pluralform.",
+      "verbFormsRequired": "Ein Verb braucht alle drei Formen (Präsens, Präteritum, Perfekt)."
+    }
   },
   "study": {
     "title": "Lernen",
@@ -35,6 +131,14 @@
     "examples": "Beispiele"
   },
   "common": {
-    "switchLanguage": "Sprache wechseln"
+    "switchLanguage": "Sprache wechseln",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "create": "Erstellen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "add": "Hinzufügen",
+    "remove": "Entfernen",
+    "back": "Zurück"
   }
 }
