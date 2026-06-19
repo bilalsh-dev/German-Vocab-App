@@ -32,6 +32,10 @@ export function getCard(id: string): Promise<Card | undefined> {
   return getDb().cards.get(id);
 }
 
+export function getAllCards(): Promise<Card[]> {
+  return getDb().cards.toArray();
+}
+
 export function getCardsByDeck(deckId: string): Promise<Card[]> {
   return getDb().cards.where("deckId").equals(deckId).toArray();
 }

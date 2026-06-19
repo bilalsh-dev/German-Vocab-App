@@ -1,12 +1,5 @@
-import { useTranslations } from "next-intl";
+import { StatsView } from "@/components/stats/stats-view";
 
 export default function StatsPage() {
-  const t = useTranslations("stats");
-
-  return (
-    <section className="flex flex-1 flex-col items-center justify-center gap-2 text-center">
-      <h1 className="text-2xl font-semibold text-copy-primary">{t("title")}</h1>
-      <p className="text-sm text-copy-muted">{t("empty")}</p>
-    </section>
-  );
+  return <StatsView />;
 }

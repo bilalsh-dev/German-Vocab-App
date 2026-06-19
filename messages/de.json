@@ -149,7 +149,29 @@
   },
   "stats": {
     "title": "Statistik",
-    "empty": "Dein Fortschritt und deine Vorschau erscheinen hier."
+    "loading": "Statistik wird geladen…",
+    "empty": "Noch keine Daten. Füge Karten hinzu und lerne, um deinen Fortschritt hier zu sehen.",
+    "decks": {
+      "title": "Karten pro Stapel",
+      "deck": "Stapel",
+      "due": "Fällig",
+      "new": "Neu",
+      "total": "Gesamt",
+      "empty": "Noch keine Stapel."
+    },
+    "forecast": {
+      "title": "Demnächst fällig",
+      "description": "Karten, die in den nächsten {days} Tagen fällig werden.",
+      "empty": "In diesem Zeitraum ist nichts fällig."
+    },
+    "curve": {
+      "title": "Intervallkurve",
+      "description": "Wie der Planer diese Karte über aufeinanderfolgende {grade}-Bewertungen verteilt.",
+      "selectCard": "Karte",
+      "grade": "Bewertung",
+      "empty": "Füge eine Karte hinzu, um ihre Intervallkurve zu sehen.",
+      "noProjection": "Keine Projektion für diese Karte verfügbar."
+    }
   },
   "card": {
     "plural": "Plural",

@@ -149,7 +149,29 @@
   },
   "stats": {
     "title": "Stats",
-    "empty": "Your progress and forecast will appear here."
+    "loading": "Loading stats…",
+    "empty": "No data yet. Add cards and study to see your progress here.",
+    "decks": {
+      "title": "Per-deck counts",
+      "deck": "Deck",
+      "due": "Due",
+      "new": "New",
+      "total": "Total",
+      "empty": "No decks yet."
+    },
+    "forecast": {
+      "title": "Upcoming due",
+      "description": "Cards becoming due over the next {days} days.",
+      "empty": "Nothing due in this window."
+    },
+    "curve": {
+      "title": "Interval curve",
+      "description": "How the scheduler spaces this card over successive {grade} grades.",
+      "selectCard": "Card",
+      "grade": "Grade",
+      "empty": "Add a card to see its interval curve.",
+      "noProjection": "No projection available for this card."
+    }
   },
   "card": {
     "plural": "Plural",
