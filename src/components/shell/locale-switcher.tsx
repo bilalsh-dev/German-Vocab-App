@@ -6,6 +6,7 @@ import { Languages } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { locales, type Locale } from "@/i18n/config";
 import { setUserLocale } from "@/i18n/locale";
+import { setUiLanguage } from "@/lib/db";
 
 export function LocaleSwitcher() {
   const locale = useLocale() as Locale;
@@ -15,8 +16,9 @@ export function LocaleSwitcher() {
   const nextLocale = locales[(locales.indexOf(locale) + 1) % locales.length];
 
   function toggle() {
-    startTransition(() => {
-      setUserLocale(nextLocale);
+    startTransition(async () => {
+      await setUiLanguage(nextLocale);
+      await setUserLocale(nextLocale);
     });
   }
 

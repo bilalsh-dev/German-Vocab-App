@@ -5,6 +5,7 @@ import { getLocale } from "next-intl/server";
 import "./globals.css";
 import { TopNav } from "@/components/shell/top-nav";
 import { Footer } from "@/components/shell/footer";
+import { LocaleSync } from "@/components/shell/locale-sync";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default async function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
+          <LocaleSync />
           <TopNav />
           <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col px-4 py-8">
             {children}
