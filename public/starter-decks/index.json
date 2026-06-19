@@ -1,0 +1,18 @@
+{
+  "decks": [
+    {
+      "id": "familie",
+      "file": "familie.json",
+      "name": "Familie",
+      "description": "German A1 starter deck — family and people.",
+      "cardCount": 8
+    },
+    {
+      "id": "buero",
+      "file": "buero.json",
+      "name": "Büro",
+      "description": "German A1 starter deck — office and work.",
+      "cardCount": 9
+    }
+  ]
+}

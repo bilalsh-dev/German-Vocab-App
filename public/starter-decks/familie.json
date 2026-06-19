@@ -1,0 +1,141 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Familie",
+      "description": "German A1 starter deck — family and people.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "father",
+          "german": "Vater",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Väter" },
+          "related": [{ "german": "die Eltern", "english": "parents", "relation": "related" }],
+          "examples": [
+            { "de": "Mein Vater heißt Thomas.", "en": "My father is called Thomas." },
+            { "de": "Der Vater spielt mit dem Kind.", "en": "The father plays with the child." },
+            { "de": "Mein Vater wohnt in Berlin.", "en": "My father lives in Berlin." }
+          ],
+          "topic": "Familie",
+          "tags": ["family", "people"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "mother",
+          "german": "Mutter",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Mütter" },
+          "related": [{ "german": "die Eltern", "english": "parents", "relation": "related" }],
+          "examples": [
+            { "de": "Meine Mutter kocht gern.", "en": "My mother likes to cook." },
+            { "de": "Die Mutter liest dem Kind ein Buch vor.", "en": "The mother reads a book to the child." },
+            { "de": "Meine Mutter arbeitet im Büro.", "en": "My mother works in the office." }
+          ],
+          "topic": "Familie",
+          "tags": ["family", "people"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "child",
+          "german": "Kind",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Kinder" },
+          "related": [],
+          "examples": [
+            { "de": "Das Kind spielt im Garten.", "en": "The child plays in the garden." },
+            { "de": "Die Kinder gehen zur Schule.", "en": "The children go to school." },
+            { "de": "Das Kind ist noch klein.", "en": "The child is still small." }
+          ],
+          "topic": "Familie",
+          "tags": ["family", "people"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "brother",
+          "german": "Bruder",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Brüder" },
+          "related": [{ "german": "die Geschwister", "english": "siblings", "relation": "related" }],
+          "examples": [
+            { "de": "Mein Bruder ist groß.", "en": "My brother is tall." },
+            { "de": "Ich habe einen Bruder und eine Schwester.", "en": "I have a brother and a sister." },
+            { "de": "Mein Bruder wohnt in Hamburg.", "en": "My brother lives in Hamburg." }
+          ],
+          "topic": "Familie",
+          "tags": ["family", "people"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "sister",
+          "german": "Schwester",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Schwestern" },
+          "related": [{ "german": "die Geschwister", "english": "siblings", "relation": "related" }],
+          "examples": [
+            { "de": "Meine Schwester heißt Anna.", "en": "My sister is called Anna." },
+            { "de": "Meine Schwester ist jünger als ich.", "en": "My sister is younger than me." },
+            { "de": "Ich besuche meine Schwester am Sonntag.", "en": "I visit my sister on Sunday." }
+          ],
+          "topic": "Familie",
+          "tags": ["family", "people"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "family",
+          "german": "Familie",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Familien" },
+          "related": [{ "german": "die Eltern", "english": "parents", "relation": "related" }],
+          "examples": [
+            { "de": "Meine Familie ist groß.", "en": "My family is big." },
+            { "de": "Am Wochenende besuche ich meine Familie.", "en": "On the weekend I visit my family." },
+            { "de": "Die ganze Familie isst zusammen.", "en": "The whole family eats together." }
+          ],
+          "topic": "Familie",
+          "tags": ["family"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to live (reside)",
+          "german": "wohnen",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "wohnt",
+            "praeteritum": "wohnte",
+            "perfekt": "hat gewohnt",
+            "auxiliary": "haben"
+          },
+          "related": [{ "german": "die Wohnung", "english": "apartment", "relation": "nominalization" }],
+          "examples": [
+            { "de": "Ich wohne in Berlin.", "en": "I live in Berlin.", "verbForm": "praesens" },
+            { "de": "Früher wohnte ich in München.", "en": "I used to live in Munich.", "verbForm": "praeteritum" },
+            { "de": "Wir haben lange in Köln gewohnt.", "en": "We lived in Cologne for a long time.", "verbForm": "perfekt" }
+          ],
+          "topic": "Familie",
+          "tags": ["verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "big, tall",
+          "german": "groß",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "adjective": {
+            "opposites": ["klein"],
+            "comparative": "größer",
+            "superlative": "am größten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Haus ist groß.", "en": "The house is big." },
+            { "de": "Mein Bruder ist sehr groß.", "en": "My brother is very tall." },
+            { "de": "Berlin ist eine große Stadt.", "en": "Berlin is a big city." }
+          ],
+          "topic": "Familie",
+          "tags": ["adjective"]
+        }
+      ]
+    }
+  ]
+}

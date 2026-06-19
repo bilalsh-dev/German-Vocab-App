@@ -183,6 +183,27 @@
     "related": "Verwandte Wörter",
     "examples": "Beispiele"
   },
+  "io": {
+    "import": "Importieren",
+    "importTitle": "Karten importieren",
+    "importHint": "Wähle eine aus Wortbox exportierte JSON- oder CSV-Datei. Ungültige Zeilen werden übersprungen und gemeldet.",
+    "chooseFile": "Datei",
+    "importing": "Wird importiert…",
+    "importedTotal": "{count, plural, =0 {Keine Karten importiert} =1 {# Karte importiert} other {# Karten importiert}}.",
+    "rejected": "{count, plural, =1 {# Zeile abgelehnt} other {# Zeilen abgelehnt}}",
+    "rejectedRow": "Zeile {row}: {reasons}",
+    "error": "Import fehlgeschlagen: {message}",
+    "exportJson": "JSON exportieren",
+    "exportCsv": "CSV exportieren",
+    "starter": "Starterstapel",
+    "starterTitle": "Deutsch-A1-Starterstapel",
+    "starterHint": "Importiere einen kuratierten Stapel. Seine Karten werden zu echten, bearbeitbaren Karten in deinem Besitz.",
+    "starterLoading": "Starterstapel werden geladen…",
+    "starterError": "Die Starterstapel konnten nicht geladen werden.",
+    "starterImport": "Importieren",
+    "starterImported": "Importiert",
+    "cards": "{count, plural, =1 {# Karte} other {# Karten}}"
+  },
   "common": {
     "switchLanguage": "Sprache wechseln",
     "cancel": "Abbrechen",
@@ -192,6 +213,7 @@
     "edit": "Bearbeiten",
     "add": "Hinzufügen",
     "remove": "Entfernen",
-    "back": "Zurück"
+    "back": "Zurück",
+    "close": "Schließen"
   }
 }

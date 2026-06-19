@@ -1,0 +1,157 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Büro",
+      "description": "German A1 starter deck — office and work.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "table, desk",
+          "german": "Tisch",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Tische" },
+          "related": [],
+          "examples": [
+            { "de": "Der Tisch ist neu.", "en": "The table is new." },
+            { "de": "Auf dem Tisch liegt ein Buch.", "en": "There is a book on the table." },
+            { "de": "Wir sitzen am Tisch.", "en": "We sit at the table." }
+          ],
+          "topic": "Büro",
+          "tags": ["office", "furniture"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "chair",
+          "german": "Stuhl",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Stühle" },
+          "related": [],
+          "examples": [
+            { "de": "Der Stuhl ist bequem.", "en": "The chair is comfortable." },
+            { "de": "Im Büro stehen vier Stühle.", "en": "There are four chairs in the office." },
+            { "de": "Bitte nimm einen Stuhl.", "en": "Please take a chair." }
+          ],
+          "topic": "Büro",
+          "tags": ["office", "furniture"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "computer",
+          "german": "Computer",
+          "vowelMarks": [],
+          "noun": { "gender": "masculine", "plural": "die Computer" },
+          "related": [{ "german": "der Laptop", "english": "laptop", "relation": "related" }],
+          "examples": [
+            { "de": "Der Computer ist neu.", "en": "The computer is new." },
+            { "de": "Ich arbeite am Computer.", "en": "I work on the computer." },
+            { "de": "Mein Computer ist sehr schnell.", "en": "My computer is very fast." }
+          ],
+          "topic": "Büro",
+          "tags": ["office", "technology"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "office",
+          "german": "Büro",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Büros" },
+          "related": [{ "german": "die Arbeit", "english": "work", "relation": "related" }],
+          "examples": [
+            { "de": "Ich arbeite im Büro.", "en": "I work in the office." },
+            { "de": "Das Büro ist groß und hell.", "en": "The office is big and bright." },
+            { "de": "Mein Büro ist im dritten Stock.", "en": "My office is on the third floor." }
+          ],
+          "topic": "Büro",
+          "tags": ["office"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "work",
+          "german": "Arbeit",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Arbeiten" },
+          "related": [{ "german": "arbeiten", "english": "to work", "relation": "related" }],
+          "examples": [
+            { "de": "Die Arbeit macht Spaß.", "en": "The work is fun." },
+            { "de": "Ich gehe um acht Uhr zur Arbeit.", "en": "I go to work at eight o'clock." },
+            { "de": "Nach der Arbeit gehe ich nach Hause.", "en": "After work I go home." }
+          ],
+          "topic": "Büro",
+          "tags": ["office", "work"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "paper",
+          "german": "Papier",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Papiere" },
+          "related": [],
+          "examples": [
+            { "de": "Das Papier ist weiß.", "en": "The paper is white." },
+            { "de": "Ich brauche ein Blatt Papier.", "en": "I need a sheet of paper." },
+            { "de": "Auf dem Tisch liegt viel Papier.", "en": "There is a lot of paper on the table." }
+          ],
+          "topic": "Büro",
+          "tags": ["office"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to work",
+          "german": "arbeiten",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "verb": {
+            "praesens": "arbeitet",
+            "praeteritum": "arbeitete",
+            "perfekt": "hat gearbeitet",
+            "auxiliary": "haben"
+          },
+          "related": [{ "german": "die Arbeit", "english": "work", "relation": "nominalization" }],
+          "examples": [
+            { "de": "Ich arbeite im Büro.", "en": "I work in the office.", "verbForm": "praesens" },
+            { "de": "Gestern arbeitete ich bis spät.", "en": "Yesterday I worked late.", "verbForm": "praeteritum" },
+            { "de": "Ich habe den ganzen Tag gearbeitet.", "en": "I worked the whole day.", "verbForm": "perfekt" }
+          ],
+          "topic": "Büro",
+          "tags": ["verb", "work"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to write",
+          "german": "schreiben",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "schreibt",
+            "praeteritum": "schrieb",
+            "perfekt": "hat geschrieben",
+            "auxiliary": "haben"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Ich schreibe eine E-Mail.", "en": "I am writing an email.", "verbForm": "praesens" },
+            { "de": "Er schrieb einen Brief.", "en": "He wrote a letter.", "verbForm": "praeteritum" },
+            { "de": "Ich habe einen Brief geschrieben.", "en": "I have written a letter.", "verbForm": "perfekt" }
+          ],
+          "topic": "Büro",
+          "tags": ["verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "new",
+          "german": "neu",
+          "vowelMarks": [],
+          "adjective": { "opposites": ["alt"] },
+          "related": [],
+          "examples": [
+            { "de": "Der Computer ist neu.", "en": "The computer is new." },
+            { "de": "Ich habe ein neues Büro.", "en": "I have a new office." },
+            { "de": "Das ist ein neuer Tisch.", "en": "This is a new table." }
+          ],
+          "topic": "Büro",
+          "tags": ["adjective"]
+        }
+      ]
+    }
+  ]
+}

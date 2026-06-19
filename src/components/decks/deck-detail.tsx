@@ -11,6 +11,7 @@ import type { Deck } from "@/lib/content";
 import { Button } from "@/components/ui/button";
 import { ConfirmDialog } from "@/components/common/confirm-dialog";
 import { CardList } from "@/components/cards/card-list";
+import { ExportButtons } from "@/components/io/export-buttons";
 
 import { DeckFormDialog } from "./deck-form-dialog";
 
@@ -95,6 +96,7 @@ export function DeckDetail({ deckId }: DeckDetailProps) {
                 {t("study")}
               </Link>
             </Button>
+            <ExportButtons deckId={deck.id} deckName={deck.name} />
             <Button variant="outline" onClick={() => setRenameOpen(true)}>
               <Pencil />
               {t("rename")}

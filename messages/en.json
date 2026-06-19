@@ -183,6 +183,27 @@
     "related": "Related words",
     "examples": "Examples"
   },
+  "io": {
+    "import": "Import",
+    "importTitle": "Import cards",
+    "importHint": "Choose a JSON or CSV file exported from Wortbox. Invalid rows are skipped and reported.",
+    "chooseFile": "File",
+    "importing": "Importing…",
+    "importedTotal": "{count, plural, =0 {No cards imported} =1 {# card imported} other {# cards imported}}.",
+    "rejected": "{count, plural, =1 {# row rejected} other {# rows rejected}}",
+    "rejectedRow": "Row {row}: {reasons}",
+    "error": "Import failed: {message}",
+    "exportJson": "Export JSON",
+    "exportCsv": "Export CSV",
+    "starter": "Starter decks",
+    "starterTitle": "German A1 starter decks",
+    "starterHint": "Import a curated deck. Its cards become real, editable cards you own.",
+    "starterLoading": "Loading starter decks…",
+    "starterError": "Could not load the starter decks.",
+    "starterImport": "Import",
+    "starterImported": "Imported",
+    "cards": "{count, plural, =1 {# card} other {# cards}}"
+  },
   "common": {
     "switchLanguage": "Switch language",
     "cancel": "Cancel",
@@ -192,6 +213,7 @@
     "edit": "Edit",
     "add": "Add",
     "remove": "Remove",
-    "back": "Back"
+    "back": "Back",
+    "close": "Close"
   }
 }

@@ -140,8 +140,9 @@ This is the core domain model of the app.
 - The full German rendering (gender color, vowel marks, forms) always appears on the German side, whether that side is the prompt or the reveal.
 
 ## Starter Decks
-- The curated German A1 deck is static JSON in `public/starter-decks`, fully populated against the Card Data Model (gender, vowel marks, forms, examples, topics).
-- On import, its cards are copied into IndexedDB as real, editable cards using the identical schema as user-created cards.
+- The curated German A1 decks are static JSON in `public/starter-decks`, each a one-entry portable export (`{format:"wortbox",version:1,decks:[…]}`), fully populated against the Card Data Model (gender, vowel marks, forms, examples, topics). `public/starter-decks/index.json` is a manifest (`{id,file,name,description,cardCount}`) the UI lists from; adding a deck is a new file plus a manifest entry.
+- On import, cards flow through the same `lib/io` validation + `lib/db` `createCard` path as a user import, so they are copied into IndexedDB as real, editable cards using the identical schema as user-created cards (fresh id/scheduling/timestamps).
+- The portable export format carries card **content only** (no id/deckId/scheduling/timestamps); scheduling progress is study state, not portable content.
 - Decks are resolved by deck ID at import time; they require no separate persistent record before import.
 
 ## AI Card Drafting (Optional)
