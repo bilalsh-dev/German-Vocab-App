@@ -65,6 +65,8 @@ interface CardEditorDialogProps {
   deckId: string;
   defaultTopic: string;
   card?: Card;
+  initialDraft?: CardDraft;
+  subtitle?: string;
   onSaved: () => void;
 }
 
@@ -74,13 +76,15 @@ export function CardEditorDialog({
   deckId,
   defaultTopic,
   card,
+  initialDraft,
+  subtitle,
   onSaved,
 }: CardEditorDialogProps) {
   const t = useTranslations("cards");
   const tf = useTranslations("cards.fields");
   const tCommon = useTranslations("common");
   const [draft, setDraft] = useState<CardDraft>(() =>
-    card ? cardToDraft(card) : emptyCardDraft(defaultTopic),
+    card ? cardToDraft(card) : (initialDraft ?? emptyCardDraft(defaultTopic)),
   );
   const [busy, setBusy] = useState(false);
 
@@ -129,6 +133,9 @@ export function CardEditorDialog({
       <DialogContent className="max-h-[90vh] gap-0 overflow-hidden rounded-3xl p-0 sm:max-w-4xl">
         <DialogHeader className="border-b border-surface-border px-6 py-4">
           <DialogTitle>{card ? t("editTitle") : t("addTitle")}</DialogTitle>
+          {subtitle ? (
+            <p className="text-sm text-copy-muted">{subtitle}</p>
+          ) : null}
         </DialogHeader>
 
         <div className="grid max-h-[70vh] grid-cols-1 overflow-hidden md:grid-cols-[1.4fr_1fr]">

@@ -2,11 +2,11 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
-import { Plus } from "lucide-react";
+import { Plus, Sparkles } from "lucide-react";
 
 import { deleteCard, getCardsByDeck } from "@/lib/db";
 import { collectTags, collectTopics, filterCards } from "@/lib/content";
-import type { Card } from "@/lib/content";
+import type { Card, CardDraft } from "@/lib/content";
 import { Button } from "@/components/ui/button";
 import {
   Select,
@@ -19,6 +19,7 @@ import { ConfirmDialog } from "@/components/common/confirm-dialog";
 
 import { CardRow } from "./card-row";
 import { CardEditorDialog } from "./card-editor-dialog";
+import { AiDraftDialog } from "./ai-draft-dialog";
 
 const ALL = "__all__";
 
@@ -38,6 +39,9 @@ export function CardList({ deckId, deckName }: CardListProps) {
   const [editorKey, setEditorKey] = useState(0);
   const [editTarget, setEditTarget] = useState<Card | undefined>();
   const [deleteTarget, setDeleteTarget] = useState<Card | undefined>();
+  const [aiOpen, setAiOpen] = useState(false);
+  const [aiQueue, setAiQueue] = useState<CardDraft[]>([]);
+  const [aiPos, setAiPos] = useState(0);
 
   const reload = useCallback(async () => {
     try {
@@ -75,15 +79,43 @@ export function CardList({ deckId, deckName }: CardListProps) {
   );
 
   function openCreate() {
+    setAiQueue([]);
+    setAiPos(0);
     setEditTarget(undefined);
     setEditorKey((key) => key + 1);
     setEditorOpen(true);
   }
 
   function openEdit(card: Card) {
+    setAiQueue([]);
+    setAiPos(0);
     setEditTarget(card);
     setEditorKey((key) => key + 1);
     setEditorOpen(true);
+  }
+
+  function handleDrafted(drafts: CardDraft[]) {
+    setAiOpen(false);
+    setEditTarget(undefined);
+    setAiQueue(drafts);
+    setAiPos(0);
+    setEditorKey((key) => key + 1);
+    setEditorOpen(true);
+  }
+
+  function handleEditorOpenChange(open: boolean) {
+    if (open) {
+      setEditorOpen(true);
+      return;
+    }
+    if (aiQueue.length > 0 && aiPos + 1 < aiQueue.length) {
+      setAiPos((pos) => pos + 1);
+      setEditorKey((key) => key + 1);
+      return;
+    }
+    setAiQueue([]);
+    setAiPos(0);
+    setEditorOpen(false);
   }
 
   return (
@@ -123,6 +155,10 @@ export function CardList({ deckId, deckName }: CardListProps) {
               </SelectContent>
             </Select>
           ) : null}
+          <Button variant="outline" onClick={() => setAiOpen(true)}>
+            <Sparkles />
+            {t("ai")}
+          </Button>
           <Button onClick={openCreate}>
             <Plus />
             {t("add")}
@@ -152,11 +188,24 @@ export function CardList({ deckId, deckName }: CardListProps) {
       <CardEditorDialog
         key={editorKey}
         open={editorOpen}
-        onOpenChange={setEditorOpen}
+        onOpenChange={handleEditorOpenChange}
         deckId={deckId}
         defaultTopic={deckName}
         card={editTarget}
+        initialDraft={aiQueue.length > 0 ? aiQueue[aiPos] : undefined}
+        subtitle={
+          aiQueue.length > 0
+            ? t("aiReview", { index: aiPos + 1, total: aiQueue.length })
+            : undefined
+        }
         onSaved={reload}
+      />
+
+      <AiDraftDialog
+        open={aiOpen}
+        onOpenChange={setAiOpen}
+        topic={deckName}
+        onDrafted={handleDrafted}
       />
 
       <ConfirmDialog
