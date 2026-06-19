@@ -39,6 +39,9 @@ Update this file whenever the current phase, active feature, or implementation s
 8. `08-stats-and-forecast.md` — per-deck counts, due forecast, per-card interval curve.
 9. `09-import-export-and-a1-starter-deck.md` — CSV/JSON I/O + curated A1 starter deck.
 10. `10-ai-card-drafting.md` — optional `app/api/ai` proxy producing model-shaped draft cards.
+11. `11-a1-starter-content-expansion.md` — author full A1 topic coverage (content only; reuses Feature 09 mechanism). Highest-priority gap from `gap-analysis.md`.
+12. `12-connected-vocabulary-web.md` — synonyms/opposites on all POS + navigable related-word links + cluster study. Gaps #1 + #2 from `gap-analysis.md`.
+13. `13-frequency-and-level.md` — frequency rank + CEFR level fields, frequency-ordered new-card introduction, level filtering. Gap #3 (prerequisite for A2/B1, gap #4).
 
 ## In Progress
 - None.
