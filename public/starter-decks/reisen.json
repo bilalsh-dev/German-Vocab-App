@@ -1,0 +1,202 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Reisen",
+      "description": "German A1 starter deck — travel.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "journey, trip",
+          "german": "Reise",
+          "vowelMarks": [],
+          "noun": { "gender": "feminine", "plural": "die Reisen" },
+          "related": [
+            { "german": "reisen", "english": "to travel", "relation": "nominalization" },
+            { "german": "der Urlaub", "english": "vacation", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Reise war schön.", "en": "The journey was nice." },
+            { "de": "Wir planen eine Reise nach Italien.", "en": "We are planning a trip to Italy." },
+            { "de": "Gute Reise!", "en": "Have a good trip!" }
+          ],
+          "topic": "Reisen",
+          "tags": ["A1", "travel"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "vacation, holiday",
+          "german": "Urlaub",
+          "vowelMarks": [{ "index": 0, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Urlaube" },
+          "related": [
+            { "german": "die Reise", "english": "journey", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich habe im Sommer Urlaub.", "en": "I have vacation in summer." },
+            { "de": "Wir fahren in den Urlaub.", "en": "We are going on vacation." },
+            { "de": "Der Urlaub war zu kurz.", "en": "The vacation was too short." }
+          ],
+          "topic": "Reisen",
+          "tags": ["A1", "travel"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "hotel",
+          "german": "Hotel",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Hotels" },
+          "related": [
+            { "german": "buchen", "english": "to book", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Hotel ist im Zentrum.", "en": "The hotel is in the center." },
+            { "de": "Wir buchen ein Hotel am Meer.", "en": "We book a hotel by the sea." },
+            { "de": "Die Hotels sind im Sommer teuer.", "en": "The hotels are expensive in summer." }
+          ],
+          "topic": "Reisen",
+          "tags": ["A1", "travel"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "suitcase",
+          "german": "Koffer",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Koffer" },
+          "related": [
+            { "german": "die Reise", "english": "journey", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Koffer ist schwer.", "en": "The suitcase is heavy." },
+            { "de": "Ich packe meinen Koffer.", "en": "I pack my suitcase." },
+            { "de": "Die Koffer sind im Auto.", "en": "The suitcases are in the car." }
+          ],
+          "topic": "Reisen",
+          "tags": ["A1", "travel"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "country",
+          "german": "Land",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Länder" },
+          "related": [
+            { "german": "die Stadt", "english": "city", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Deutschland ist ein schönes Land.", "en": "Germany is a beautiful country." },
+            { "de": "Ich besuche viele Länder.", "en": "I visit many countries." },
+            { "de": "In welchem Land wohnst du?", "en": "Which country do you live in?" }
+          ],
+          "topic": "Reisen",
+          "tags": ["A1", "travel"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to travel",
+          "german": "reisen",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "reist",
+            "praeteritum": "reiste",
+            "perfekt": "ist gereist",
+            "auxiliary": "sein"
+          },
+          "related": [
+            { "german": "die Reise", "english": "journey", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich reise gern.", "en": "I like to travel.", "verbForm": "praesens" },
+            { "de": "Er reiste nach Spanien.", "en": "He travelled to Spain.", "verbForm": "praeteritum" },
+            { "de": "Wir sind nach Italien gereist.", "en": "We have travelled to Italy.", "verbForm": "perfekt" }
+          ],
+          "topic": "Reisen",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to fly",
+          "german": "fliegen",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "verb": {
+            "praesens": "fliegt",
+            "praeteritum": "flog",
+            "perfekt": "ist geflogen",
+            "auxiliary": "sein"
+          },
+          "related": [
+            { "german": "der Flug", "english": "flight", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Sie fliegt nach London.", "en": "She flies to London.", "verbForm": "praesens" },
+            { "de": "Er flog nach Paris.", "en": "He flew to Paris.", "verbForm": "praeteritum" },
+            { "de": "Wir sind nach New York geflogen.", "en": "We have flown to New York.", "verbForm": "perfekt" }
+          ],
+          "topic": "Reisen",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to book, to reserve",
+          "german": "buchen",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "bucht",
+            "praeteritum": "buchte",
+            "perfekt": "hat gebucht",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Buchung", "english": "booking", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich buche ein Hotel.", "en": "I book a hotel.", "verbForm": "praesens" },
+            { "de": "Sie buchte einen Flug.", "en": "She booked a flight.", "verbForm": "praeteritum" },
+            { "de": "Wir haben eine Reise gebucht.", "en": "We have booked a trip.", "verbForm": "perfekt" }
+          ],
+          "topic": "Reisen",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "far",
+          "german": "weit",
+          "vowelMarks": [],
+          "adjective": {
+            "opposites": ["nah"],
+            "comparative": "weiter",
+            "superlative": "am weitesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Der Weg ist weit.", "en": "The way is far." },
+            { "de": "Berlin ist weiter als München.", "en": "Berlin is farther than Munich." },
+            { "de": "Wer reist am weitesten?", "en": "Who travels the farthest?" }
+          ],
+          "topic": "Reisen",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "foreign, strange",
+          "german": "fremd",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "adjective": {
+            "opposites": ["vertraut"],
+            "comparative": "fremder",
+            "superlative": "am fremdesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Land ist mir fremd.", "en": "The country is foreign to me." },
+            { "de": "Eine fremde Stadt ist oft spannend.", "en": "A foreign city is often exciting." },
+            { "de": "Am Anfang ist alles fremd.", "en": "At the beginning everything is strange." }
+          ],
+          "topic": "Reisen",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

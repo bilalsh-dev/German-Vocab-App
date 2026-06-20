@@ -1,0 +1,202 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Feste",
+      "description": "German A2 starter deck — celebrations and festivals.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "celebration, festival",
+          "german": "Fest",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Feste" },
+          "related": [
+            { "german": "feiern", "english": "to celebrate", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Fest war sehr schön.", "en": "The celebration was very nice." },
+            { "de": "Wir feiern ein Fest im Garten.", "en": "We are having a party in the garden." },
+            { "de": "Die Feste in Deutschland sind bekannt.", "en": "The festivals in Germany are well known." }
+          ],
+          "topic": "Feste",
+          "tags": ["A2", "celebration"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "birthday",
+          "german": "Geburtstag",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Geburtstage" },
+          "related": [
+            { "german": "das Geschenk", "english": "gift", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Heute ist mein Geburtstag.", "en": "Today is my birthday." },
+            { "de": "Herzlichen Glückwunsch zum Geburtstag!", "en": "Happy birthday!" },
+            { "de": "Wir feiern viele Geburtstage im Jahr.", "en": "We celebrate many birthdays a year." }
+          ],
+          "topic": "Feste",
+          "tags": ["A2", "celebration"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "gift, present",
+          "german": "Geschenk",
+          "vowelMarks": [{ "index": 5, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Geschenke" },
+          "related": [
+            { "german": "schenken", "english": "to give a gift", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Das Geschenk ist für dich.", "en": "The gift is for you." },
+            { "de": "Ich kaufe ein Geschenk.", "en": "I buy a present." },
+            { "de": "Die Geschenke liegen auf dem Tisch.", "en": "The gifts are on the table." }
+          ],
+          "topic": "Feste",
+          "tags": ["A2", "celebration"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "public holiday",
+          "german": "Feiertag",
+          "vowelMarks": [{ "index": 6, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Feiertage" },
+          "related": [
+            { "german": "feiern", "english": "to celebrate", "relation": "compound" }
+          ],
+          "examples": [
+            { "de": "Morgen ist ein Feiertag.", "en": "Tomorrow is a public holiday." },
+            { "de": "Am Feiertag sind die Geschäfte zu.", "en": "On the holiday the shops are closed." },
+            { "de": "Es gibt viele Feiertage im Dezember.", "en": "There are many holidays in December." }
+          ],
+          "topic": "Feste",
+          "tags": ["A2", "celebration"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "cake",
+          "german": "Kuchen",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Kuchen" },
+          "related": [
+            { "german": "süß", "english": "sweet", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Kuchen schmeckt süß.", "en": "The cake tastes sweet." },
+            { "de": "Zum Geburtstag gibt es Kuchen.", "en": "For the birthday there is cake." },
+            { "de": "Die Kuchen sind selbst gemacht.", "en": "The cakes are homemade." }
+          ],
+          "topic": "Feste",
+          "tags": ["A2", "celebration"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to celebrate",
+          "german": "feiern",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "feiert",
+            "praeteritum": "feierte",
+            "perfekt": "hat gefeiert",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Feier", "english": "celebration", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Wir feiern Geburtstag.", "en": "We celebrate a birthday.", "verbForm": "praesens" },
+            { "de": "Sie feierte mit ihren Freunden.", "en": "She celebrated with her friends.", "verbForm": "praeteritum" },
+            { "de": "Wir haben die ganze Nacht gefeiert.", "en": "We have celebrated all night.", "verbForm": "perfekt" }
+          ],
+          "topic": "Feste",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to give (as a gift)",
+          "german": "schenken",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "verb": {
+            "praesens": "schenkt",
+            "praeteritum": "schenkte",
+            "perfekt": "hat geschenkt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Geschenk", "english": "gift", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich schenke ihr Blumen.", "en": "I give her flowers.", "verbForm": "praesens" },
+            { "de": "Er schenkte mir ein Buch.", "en": "He gave me a book.", "verbForm": "praeteritum" },
+            { "de": "Sie haben uns Geld geschenkt.", "en": "They have given us money.", "verbForm": "perfekt" }
+          ],
+          "topic": "Feste",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to invite",
+          "german": "einladen",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "lädt ein",
+            "praeteritum": "lud ein",
+            "perfekt": "hat eingeladen",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Einladung", "english": "invitation", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich lade dich zur Party ein.", "en": "I invite you to the party.", "verbForm": "praesens" },
+            { "de": "Sie lud viele Gäste ein.", "en": "She invited many guests.", "verbForm": "praeteritum" },
+            { "de": "Er hat uns zum Essen eingeladen.", "en": "He has invited us for dinner.", "verbForm": "perfekt" }
+          ],
+          "topic": "Feste",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "cheerful, merry",
+          "german": "fröhlich",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "adjective": {
+            "opposites": ["traurig"],
+            "synonyms": ["glücklich"],
+            "comparative": "fröhlicher",
+            "superlative": "am fröhlichsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Die Gäste sind fröhlich.", "en": "The guests are cheerful." },
+            { "de": "Auf dem Fest war sie fröhlicher als sonst.", "en": "At the party she was more cheerful than usual." },
+            { "de": "An Weihnachten sind alle am fröhlichsten.", "en": "At Christmas everyone is the most cheerful." }
+          ],
+          "topic": "Feste",
+          "tags": ["A2", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "exciting",
+          "german": "aufregend",
+          "vowelMarks": [{ "index": 4, "length": "long" }],
+          "adjective": {
+            "opposites": ["langweilig"],
+            "comparative": "aufregender",
+            "superlative": "am aufregendsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Fest war aufregend.", "en": "The celebration was exciting." },
+            { "de": "Die Party war aufregender als erwartet.", "en": "The party was more exciting than expected." },
+            { "de": "Das war der aufregendste Tag des Jahres.", "en": "That was the most exciting day of the year." }
+          ],
+          "topic": "Feste",
+          "tags": ["A2", "adjective"]
+        }
+      ]
+    }
+  ]
+}

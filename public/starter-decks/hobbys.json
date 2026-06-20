@@ -1,0 +1,201 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Hobbys",
+      "description": "German A1 starter deck — hobbies and free time.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "hobby",
+          "german": "Hobby",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Hobbys" },
+          "related": [
+            { "german": "die Freizeit", "english": "free time", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Mein Hobby ist Musik.", "en": "My hobby is music." },
+            { "de": "Hast du ein Hobby?", "en": "Do you have a hobby?" },
+            { "de": "Meine Hobbys sind Sport und Lesen.", "en": "My hobbies are sport and reading." }
+          ],
+          "topic": "Hobbys",
+          "tags": ["A1", "hobby"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "music",
+          "german": "Musik",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "kein Plural" },
+          "related": [
+            { "german": "das Lied", "english": "song", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich höre gern Musik.", "en": "I like to listen to music." },
+            { "de": "Die Musik ist laut.", "en": "The music is loud." },
+            { "de": "Er macht Musik mit der Gitarre.", "en": "He makes music with the guitar." }
+          ],
+          "topic": "Hobbys",
+          "tags": ["A1", "hobby"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "sport",
+          "german": "Sport",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Sportarten" },
+          "related": [
+            { "german": "spielen", "english": "to play", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Sport ist gesund.", "en": "Sport is healthy." },
+            { "de": "Ich mache jeden Tag Sport.", "en": "I do sport every day." },
+            { "de": "Welchen Sport magst du?", "en": "Which sport do you like?" }
+          ],
+          "topic": "Hobbys",
+          "tags": ["A1", "hobby"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "film, movie",
+          "german": "Film",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Filme" },
+          "related": [
+            { "german": "das Kino", "english": "cinema", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Film ist spannend.", "en": "The film is exciting." },
+            { "de": "Wir sehen einen Film im Kino.", "en": "We watch a film at the cinema." },
+            { "de": "Die Filme beginnen um acht.", "en": "The films begin at eight." }
+          ],
+          "topic": "Hobbys",
+          "tags": ["A1", "hobby"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "game",
+          "german": "Spiel",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Spiele" },
+          "related": [
+            { "german": "spielen", "english": "to play", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Das Spiel macht Spaß.", "en": "The game is fun." },
+            { "de": "Wir spielen ein Spiel.", "en": "We play a game." },
+            { "de": "Die Spiele sind für Kinder.", "en": "The games are for children." }
+          ],
+          "topic": "Hobbys",
+          "tags": ["A1", "hobby"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to play",
+          "german": "spielen",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "verb": {
+            "praesens": "spielt",
+            "praeteritum": "spielte",
+            "perfekt": "hat gespielt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Spiel", "english": "game", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich spiele Fußball.", "en": "I play football.", "verbForm": "praesens" },
+            { "de": "Er spielte Gitarre.", "en": "He played guitar.", "verbForm": "praeteritum" },
+            { "de": "Wir haben Karten gespielt.", "en": "We have played cards.", "verbForm": "perfekt" }
+          ],
+          "topic": "Hobbys",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to swim",
+          "german": "schwimmen",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "verb": {
+            "praesens": "schwimmt",
+            "praeteritum": "schwamm",
+            "perfekt": "ist geschwommen",
+            "auxiliary": "sein"
+          },
+          "related": [
+            { "german": "der Sport", "english": "sport", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich schwimme im See.", "en": "I swim in the lake.", "verbForm": "praesens" },
+            { "de": "Sie schwamm sehr schnell.", "en": "She swam very fast.", "verbForm": "praeteritum" },
+            { "de": "Wir sind im Meer geschwommen.", "en": "We have swum in the sea.", "verbForm": "perfekt" }
+          ],
+          "topic": "Hobbys",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to dance",
+          "german": "tanzen",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "verb": {
+            "praesens": "tanzt",
+            "praeteritum": "tanzte",
+            "perfekt": "hat getanzt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Tanz", "english": "dance", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Sie tanzt gern.", "en": "She likes to dance.", "verbForm": "praesens" },
+            { "de": "Er tanzte die ganze Nacht.", "en": "He danced all night.", "verbForm": "praeteritum" },
+            { "de": "Wir haben zusammen getanzt.", "en": "We have danced together.", "verbForm": "perfekt" }
+          ],
+          "topic": "Hobbys",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "interesting",
+          "german": "interessant",
+          "vowelMarks": [{ "index": 8, "length": "short" }],
+          "adjective": {
+            "opposites": ["langweilig"],
+            "comparative": "interessanter",
+            "superlative": "am interessantesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Buch ist interessant.", "en": "The book is interesting." },
+            { "de": "Der Film ist interessanter als das Spiel.", "en": "The film is more interesting than the game." },
+            { "de": "Das ist das interessanteste Hobby.", "en": "That is the most interesting hobby." }
+          ],
+          "topic": "Hobbys",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "boring",
+          "german": "langweilig",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["interessant"],
+            "comparative": "langweiliger",
+            "superlative": "am langweiligsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Der Film ist langweilig.", "en": "The film is boring." },
+            { "de": "Das Spiel ist langweiliger als das Buch.", "en": "The game is more boring than the book." },
+            { "de": "Das ist die langweiligste Aufgabe.", "en": "That is the most boring task." }
+          ],
+          "topic": "Hobbys",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

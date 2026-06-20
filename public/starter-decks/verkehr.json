@@ -1,0 +1,196 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Verkehr",
+      "description": "German A1 starter deck — transportation.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "car",
+          "german": "Auto",
+          "vowelMarks": [],
+          "noun": { "gender": "neuter", "plural": "die Autos" },
+          "related": [
+            { "german": "fahren", "english": "to drive", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Auto ist neu.", "en": "The car is new." },
+            { "de": "Ich fahre mit dem Auto zur Arbeit.", "en": "I drive to work by car." },
+            { "de": "Die Autos stehen im Stau.", "en": "The cars are in the traffic jam." }
+          ],
+          "topic": "Verkehr",
+          "tags": ["A1", "transport"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "train",
+          "german": "Zug",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Züge" },
+          "related": [
+            { "german": "der Bahnhof", "english": "station", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Zug fährt um zehn Uhr.", "en": "The train leaves at ten o'clock." },
+            { "de": "Ich nehme den Zug nach Berlin.", "en": "I take the train to Berlin." },
+            { "de": "Die Züge sind heute pünktlich.", "en": "The trains are on time today." }
+          ],
+          "topic": "Verkehr",
+          "tags": ["A1", "transport"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "bus",
+          "german": "Bus",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Busse" },
+          "related": [
+            { "german": "die Straße", "english": "street", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Bus kommt zu spät.", "en": "The bus is coming late." },
+            { "de": "Ich warte auf den Bus.", "en": "I wait for the bus." },
+            { "de": "Die Busse fahren jede Stunde.", "en": "The buses run every hour." }
+          ],
+          "topic": "Verkehr",
+          "tags": ["A1", "transport"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "bicycle",
+          "german": "Fahrrad",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Fahrräder" },
+          "related": [
+            { "german": "fahren", "english": "to ride", "relation": "compound" }
+          ],
+          "examples": [
+            { "de": "Das Fahrrad ist kaputt.", "en": "The bicycle is broken." },
+            { "de": "Ich fahre mit dem Fahrrad zur Schule.", "en": "I ride my bicycle to school." },
+            { "de": "Die Fahrräder stehen vor dem Haus.", "en": "The bicycles are in front of the house." }
+          ],
+          "topic": "Verkehr",
+          "tags": ["A1", "transport"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "street, road",
+          "german": "Straße",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "die Straßen" },
+          "related": [
+            { "german": "der Weg", "english": "way, path", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Straße ist breit.", "en": "The street is wide." },
+            { "de": "Das Auto fährt auf der Straße.", "en": "The car drives on the street." },
+            { "de": "In dieser Straße wohne ich.", "en": "I live on this street." }
+          ],
+          "topic": "Verkehr",
+          "tags": ["A1", "transport"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "station",
+          "german": "Bahnhof",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Bahnhöfe" },
+          "related": [
+            { "german": "der Zug", "english": "train", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Bahnhof ist im Zentrum.", "en": "The station is in the center." },
+            { "de": "Ich treffe dich am Bahnhof.", "en": "I will meet you at the station." },
+            { "de": "Der Zug steht im Bahnhof.", "en": "The train is in the station." }
+          ],
+          "topic": "Verkehr",
+          "tags": ["A1", "transport"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to drive, to go (by vehicle)",
+          "german": "fahren",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "fährt",
+            "praeteritum": "fuhr",
+            "perfekt": "ist gefahren",
+            "auxiliary": "sein"
+          },
+          "related": [
+            { "german": "die Fahrt", "english": "trip", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich fahre mit dem Bus.", "en": "I go by bus.", "verbForm": "praesens" },
+            { "de": "Er fuhr nach Hamburg.", "en": "He drove to Hamburg.", "verbForm": "praeteritum" },
+            { "de": "Wir sind mit dem Zug gefahren.", "en": "We have travelled by train.", "verbForm": "perfekt" }
+          ],
+          "topic": "Verkehr",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to come",
+          "german": "kommen",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "verb": {
+            "praesens": "kommt",
+            "praeteritum": "kam",
+            "perfekt": "ist gekommen",
+            "auxiliary": "sein"
+          },
+          "related": [
+            { "german": "die Ankunft", "english": "arrival", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Bus kommt um acht.", "en": "The bus comes at eight.", "verbForm": "praesens" },
+            { "de": "Sie kam zu spät.", "en": "She came too late.", "verbForm": "praeteritum" },
+            { "de": "Er ist nach Hause gekommen.", "en": "He has come home.", "verbForm": "perfekt" }
+          ],
+          "topic": "Verkehr",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "fast, quick",
+          "german": "schnell",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "adjective": {
+            "opposites": ["langsam"],
+            "comparative": "schneller",
+            "superlative": "am schnellsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Der Zug ist schnell.", "en": "The train is fast." },
+            { "de": "Das Auto ist schneller als das Fahrrad.", "en": "The car is faster than the bicycle." },
+            { "de": "Der Zug ist am schnellsten.", "en": "The train is the fastest." }
+          ],
+          "topic": "Verkehr",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "slow",
+          "german": "langsam",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["schnell"],
+            "comparative": "langsamer",
+            "superlative": "am langsamsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Der Bus ist langsam.", "en": "The bus is slow." },
+            { "de": "Das Fahrrad ist langsamer als das Auto.", "en": "The bicycle is slower than the car." },
+            { "de": "Zu Fuß bin ich am langsamsten.", "en": "On foot I am the slowest." }
+          ],
+          "topic": "Verkehr",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Tiere",
+      "description": "German A2 starter deck — animals.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "animal",
+          "german": "Tier",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Tiere" },
+          "related": [
+            { "german": "der Hund", "english": "dog", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Tier ist klein.", "en": "The animal is small." },
+            { "de": "Im Zoo gibt es viele Tiere.", "en": "There are many animals in the zoo." },
+            { "de": "Ich mag Tiere sehr.", "en": "I like animals a lot." }
+          ],
+          "topic": "Tiere",
+          "tags": ["A2", "animal"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "dog",
+          "german": "Hund",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Hunde" },
+          "related": [
+            { "german": "die Katze", "english": "cat", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Hund bellt laut.", "en": "The dog barks loudly." },
+            { "de": "Ich gehe mit dem Hund spazieren.", "en": "I go for a walk with the dog." },
+            { "de": "Die Hunde spielen im Garten.", "en": "The dogs play in the garden." }
+          ],
+          "topic": "Tiere",
+          "tags": ["A2", "animal"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "cat",
+          "german": "Katze",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Katzen" },
+          "related": [
+            { "german": "der Hund", "english": "dog", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Katze schläft auf dem Sofa.", "en": "The cat sleeps on the sofa." },
+            { "de": "Meine Katze ist sehr ruhig.", "en": "My cat is very calm." },
+            { "de": "Die Katzen jagen Mäuse.", "en": "The cats hunt mice." }
+          ],
+          "topic": "Tiere",
+          "tags": ["A2", "animal"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "bird",
+          "german": "Vogel",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Vögel" },
+          "related": [
+            { "german": "fliegen", "english": "to fly", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Vogel singt am Morgen.", "en": "The bird sings in the morning." },
+            { "de": "Ein Vogel sitzt auf dem Baum.", "en": "A bird is sitting on the tree." },
+            { "de": "Die Vögel fliegen nach Süden.", "en": "The birds fly south." }
+          ],
+          "topic": "Tiere",
+          "tags": ["A2", "animal"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "horse",
+          "german": "Pferd",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Pferde" },
+          "related": [
+            { "german": "laufen", "english": "to run", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Pferd ist schnell.", "en": "The horse is fast." },
+            { "de": "Sie reitet auf dem Pferd.", "en": "She rides on the horse." },
+            { "de": "Die Pferde stehen auf der Wiese.", "en": "The horses are standing in the meadow." }
+          ],
+          "topic": "Tiere",
+          "tags": ["A2", "animal"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "fish",
+          "german": "Fisch",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Fische" },
+          "related": [
+            { "german": "schwimmen", "english": "to swim", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Fisch schwimmt im Wasser.", "en": "The fish swims in the water." },
+            { "de": "Wir essen freitags Fisch.", "en": "We eat fish on Fridays." },
+            { "de": "Die Fische sind im See.", "en": "The fish are in the lake." }
+          ],
+          "topic": "Tiere",
+          "tags": ["A2", "animal"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to feed",
+          "german": "füttern",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "verb": {
+            "praesens": "füttert",
+            "praeteritum": "fütterte",
+            "perfekt": "hat gefüttert",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Tier", "english": "animal", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich füttere den Hund.", "en": "I feed the dog.", "verbForm": "praesens" },
+            { "de": "Sie fütterte die Katze.", "en": "She fed the cat.", "verbForm": "praeteritum" },
+            { "de": "Wir haben die Vögel gefüttert.", "en": "We have fed the birds.", "verbForm": "perfekt" }
+          ],
+          "topic": "Tiere",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to run",
+          "german": "laufen",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "läuft",
+            "praeteritum": "lief",
+            "perfekt": "ist gelaufen",
+            "auxiliary": "sein"
+          },
+          "related": [
+            { "german": "der Lauf", "english": "run", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Der Hund läuft im Park.", "en": "The dog runs in the park.", "verbForm": "praesens" },
+            { "de": "Das Pferd lief sehr schnell.", "en": "The horse ran very fast.", "verbForm": "praeteritum" },
+            { "de": "Wir sind durch den Wald gelaufen.", "en": "We have run through the forest.", "verbForm": "perfekt" }
+          ],
+          "topic": "Tiere",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "wild",
+          "german": "wild",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["zahm"],
+            "comparative": "wilder",
+            "superlative": "am wildesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Tier ist wild.", "en": "The animal is wild." },
+            { "de": "Dieser Hund ist wilder als die Katze.", "en": "This dog is wilder than the cat." },
+            { "de": "Im Wald leben die wildesten Tiere.", "en": "The wildest animals live in the forest." }
+          ],
+          "topic": "Tiere",
+          "tags": ["A2", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "dangerous",
+          "german": "gefährlich",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "adjective": {
+            "opposites": ["ungefährlich"],
+            "comparative": "gefährlicher",
+            "superlative": "am gefährlichsten"
+          },
+          "related": [
+            { "german": "die Gefahr", "english": "danger", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Der Hund ist gefährlich.", "en": "The dog is dangerous." },
+            { "de": "Ein Löwe ist gefährlicher als ein Hund.", "en": "A lion is more dangerous than a dog." },
+            { "de": "Das ist das gefährlichste Tier.", "en": "That is the most dangerous animal." }
+          ],
+          "topic": "Tiere",
+          "tags": ["A2", "adjective"]
+        }
+      ]
+    }
+  ]
+}

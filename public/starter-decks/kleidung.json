@@ -1,0 +1,201 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Kleidung",
+      "description": "German A1 starter deck — clothing.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "shirt",
+          "german": "Hemd",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Hemden" },
+          "related": [
+            { "german": "die Jacke", "english": "jacket", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Hemd ist weiß.", "en": "The shirt is white." },
+            { "de": "Er trägt ein blaues Hemd.", "en": "He is wearing a blue shirt." },
+            { "de": "Die Hemden sind im Schrank.", "en": "The shirts are in the closet." }
+          ],
+          "topic": "Kleidung",
+          "tags": ["A1", "clothing"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "trousers, pants",
+          "german": "Hose",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "die Hosen" },
+          "related": [
+            { "german": "der Rock", "english": "skirt", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Hose ist zu lang.", "en": "The trousers are too long." },
+            { "de": "Ich kaufe eine neue Hose.", "en": "I am buying new trousers." },
+            { "de": "Diese Hosen sind günstig.", "en": "These trousers are cheap." }
+          ],
+          "topic": "Kleidung",
+          "tags": ["A1", "clothing"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "dress",
+          "german": "Kleid",
+          "vowelMarks": [],
+          "noun": { "gender": "neuter", "plural": "die Kleider" },
+          "related": [
+            { "german": "die Kleidung", "english": "clothing", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Kleid ist schön.", "en": "The dress is beautiful." },
+            { "de": "Sie trägt ein rotes Kleid.", "en": "She is wearing a red dress." },
+            { "de": "Die Kleider hängen im Schrank.", "en": "The dresses hang in the closet." }
+          ],
+          "topic": "Kleidung",
+          "tags": ["A1", "clothing"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "shoe",
+          "german": "Schuh",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Schuhe" },
+          "related": [
+            { "german": "die Jacke", "english": "jacket", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Schuh ist zu klein.", "en": "The shoe is too small." },
+            { "de": "Ich brauche neue Schuhe.", "en": "I need new shoes." },
+            { "de": "Die Schuhe sind aus Leder.", "en": "The shoes are made of leather." }
+          ],
+          "topic": "Kleidung",
+          "tags": ["A1", "clothing"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "jacket",
+          "german": "Jacke",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Jacken" },
+          "related": [
+            { "german": "der Mantel", "english": "coat", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Jacke ist warm.", "en": "The jacket is warm." },
+            { "de": "Zieh deine Jacke an!", "en": "Put on your jacket!" },
+            { "de": "Im Winter trage ich eine dicke Jacke.", "en": "In winter I wear a thick jacket." }
+          ],
+          "topic": "Kleidung",
+          "tags": ["A1", "clothing"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "clothing",
+          "german": "Kleidung",
+          "vowelMarks": [{ "index": 5, "length": "short" }],
+          "noun": {
+            "gender": "feminine",
+            "plural": "kein Plural",
+            "genderEndingHint": "-ung → feminine"
+          },
+          "related": [
+            { "german": "das Kleid", "english": "dress", "relation": "related" },
+            { "german": "anziehen", "english": "to put on", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Kleidung ist neu.", "en": "The clothing is new." },
+            { "de": "Ich kaufe gern Kleidung.", "en": "I like to buy clothing." },
+            { "de": "Warme Kleidung ist im Winter wichtig.", "en": "Warm clothing is important in winter." }
+          ],
+          "topic": "Kleidung",
+          "tags": ["A1", "clothing"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to put on (clothes)",
+          "german": "anziehen",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "verb": {
+            "praesens": "zieht an",
+            "praeteritum": "zog an",
+            "perfekt": "hat angezogen",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Kleidung", "english": "clothing", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich ziehe eine Jacke an.", "en": "I put on a jacket.", "verbForm": "praesens" },
+            { "de": "Er zog die Schuhe an.", "en": "He put on the shoes.", "verbForm": "praeteritum" },
+            { "de": "Sie hat ein Kleid angezogen.", "en": "She has put on a dress.", "verbForm": "perfekt" }
+          ],
+          "topic": "Kleidung",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to buy",
+          "german": "kaufen",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "kauft",
+            "praeteritum": "kaufte",
+            "perfekt": "hat gekauft",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "einkaufen", "english": "to go shopping", "relation": "derived" }
+          ],
+          "examples": [
+            { "de": "Ich kaufe eine neue Hose.", "en": "I buy new trousers.", "verbForm": "praesens" },
+            { "de": "Sie kaufte schöne Schuhe.", "en": "She bought beautiful shoes.", "verbForm": "praeteritum" },
+            { "de": "Wir haben warme Kleidung gekauft.", "en": "We have bought warm clothing.", "verbForm": "perfekt" }
+          ],
+          "topic": "Kleidung",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "beautiful, nice",
+          "german": "schön",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "adjective": {
+            "opposites": ["hässlich"],
+            "comparative": "schöner",
+            "superlative": "am schönsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Kleid ist schön.", "en": "The dress is beautiful." },
+            { "de": "Diese Jacke ist schöner als die andere.", "en": "This jacket is nicer than the other." },
+            { "de": "Das ist das schönste Hemd.", "en": "That is the most beautiful shirt." }
+          ],
+          "topic": "Kleidung",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "expensive",
+          "german": "teuer",
+          "vowelMarks": [],
+          "adjective": {
+            "opposites": ["billig"],
+            "comparative": "teurer",
+            "superlative": "am teuersten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Die Schuhe sind teuer.", "en": "The shoes are expensive." },
+            { "de": "Diese Jacke ist teurer als die Hose.", "en": "This jacket is more expensive than the trousers." },
+            { "de": "Das ist das teuerste Kleid.", "en": "That is the most expensive dress." }
+          ],
+          "topic": "Kleidung",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

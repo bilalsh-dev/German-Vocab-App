@@ -1,0 +1,196 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Umwelt",
+      "description": "German A2 starter deck — environment and nature.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "environment",
+          "german": "Umwelt",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "kein Plural" },
+          "related": [
+            { "german": "die Natur", "english": "nature", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Wir müssen die Umwelt schützen.", "en": "We must protect the environment." },
+            { "de": "Die Umwelt ist uns wichtig.", "en": "The environment is important to us." },
+            { "de": "Autos sind schlecht für die Umwelt.", "en": "Cars are bad for the environment." }
+          ],
+          "topic": "Umwelt",
+          "tags": ["A2", "environment"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "nature",
+          "german": "Natur",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "kein Plural" },
+          "related": [
+            { "german": "der Wald", "english": "forest", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich liebe die Natur.", "en": "I love nature." },
+            { "de": "In der Natur ist es ruhig.", "en": "In nature it is calm." },
+            { "de": "Wir gehen oft in die Natur.", "en": "We often go out into nature." }
+          ],
+          "topic": "Umwelt",
+          "tags": ["A2", "environment"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "tree",
+          "german": "Baum",
+          "vowelMarks": [],
+          "noun": { "gender": "masculine", "plural": "die Bäume" },
+          "related": [
+            { "german": "der Wald", "english": "forest", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Baum ist sehr alt.", "en": "The tree is very old." },
+            { "de": "Im Garten steht ein großer Baum.", "en": "There is a big tree in the garden." },
+            { "de": "Die Bäume sind grün.", "en": "The trees are green." }
+          ],
+          "topic": "Umwelt",
+          "tags": ["A2", "environment"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "air",
+          "german": "Luft",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "kein Plural" },
+          "related": [
+            { "german": "die Umwelt", "english": "environment", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Luft ist sauber.", "en": "The air is clean." },
+            { "de": "Auf dem Land ist die Luft besser.", "en": "In the countryside the air is better." },
+            { "de": "Wir brauchen frische Luft.", "en": "We need fresh air." }
+          ],
+          "topic": "Umwelt",
+          "tags": ["A2", "environment"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "garbage, waste",
+          "german": "Müll",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "kein Plural" },
+          "related": [
+            { "german": "trennen", "english": "to separate", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Müll ist voll.", "en": "The garbage is full." },
+            { "de": "Wir bringen den Müll nach draußen.", "en": "We take the garbage outside." },
+            { "de": "In Deutschland trennt man den Müll.", "en": "In Germany people separate the garbage." }
+          ],
+          "topic": "Umwelt",
+          "tags": ["A2", "environment"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "forest",
+          "german": "Wald",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Wälder" },
+          "related": [
+            { "german": "der Baum", "english": "tree", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Wald ist groß und still.", "en": "The forest is big and quiet." },
+            { "de": "Wir gehen im Wald spazieren.", "en": "We go for a walk in the forest." },
+            { "de": "Die Wälder sind wichtig für die Umwelt.", "en": "The forests are important for the environment." }
+          ],
+          "topic": "Umwelt",
+          "tags": ["A2", "environment"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to protect",
+          "german": "schützen",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "verb": {
+            "praesens": "schützt",
+            "praeteritum": "schützte",
+            "perfekt": "hat geschützt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Schutz", "english": "protection", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Wir schützen die Umwelt.", "en": "We protect the environment.", "verbForm": "praesens" },
+            { "de": "Er schützte die Tiere im Wald.", "en": "He protected the animals in the forest.", "verbForm": "praeteritum" },
+            { "de": "Sie haben den Wald geschützt.", "en": "They have protected the forest.", "verbForm": "perfekt" }
+          ],
+          "topic": "Umwelt",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to separate, to sort",
+          "german": "trennen",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "verb": {
+            "praesens": "trennt",
+            "praeteritum": "trennte",
+            "perfekt": "hat getrennt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Müll", "english": "garbage", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich trenne den Müll.", "en": "I separate the garbage.", "verbForm": "praesens" },
+            { "de": "Sie trennte das Papier vom Plastik.", "en": "She separated the paper from the plastic.", "verbForm": "praeteritum" },
+            { "de": "Wir haben den Abfall getrennt.", "en": "We have sorted the waste.", "verbForm": "perfekt" }
+          ],
+          "topic": "Umwelt",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "clean",
+          "german": "sauber",
+          "vowelMarks": [],
+          "adjective": {
+            "opposites": ["schmutzig"],
+            "comparative": "sauberer",
+            "superlative": "am saubersten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Die Luft ist sauber.", "en": "The air is clean." },
+            { "de": "Der Park ist sauberer als die Straße.", "en": "The park is cleaner than the street." },
+            { "de": "Hier ist es am saubersten.", "en": "Here it is the cleanest." }
+          ],
+          "topic": "Umwelt",
+          "tags": ["A2", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "dirty",
+          "german": "schmutzig",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "adjective": {
+            "opposites": ["sauber"],
+            "comparative": "schmutziger",
+            "superlative": "am schmutzigsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Wasser ist schmutzig.", "en": "The water is dirty." },
+            { "de": "Die Straße ist schmutziger als der Park.", "en": "The street is dirtier than the park." },
+            { "de": "Nach dem Spiel war er am schmutzigsten.", "en": "After the game he was the dirtiest." }
+          ],
+          "topic": "Umwelt",
+          "tags": ["A2", "adjective"]
+        }
+      ]
+    }
+  ]
+}

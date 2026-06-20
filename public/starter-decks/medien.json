@@ -1,0 +1,210 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Medien",
+      "description": "German A2 starter deck — media.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "newspaper",
+          "german": "Zeitung",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "noun": {
+            "gender": "feminine",
+            "plural": "die Zeitungen",
+            "genderEndingHint": "-ung → feminine"
+          },
+          "related": [
+            { "german": "die Nachricht", "english": "news", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich lese jeden Morgen die Zeitung.", "en": "I read the newspaper every morning." },
+            { "de": "Die Zeitung berichtet über die Stadt.", "en": "The newspaper reports about the city." },
+            { "de": "Die Zeitungen sind heute teuer.", "en": "The newspapers are expensive today." }
+          ],
+          "topic": "Medien",
+          "tags": ["A2", "media"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "television (set)",
+          "german": "Fernseher",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "die Fernseher",
+            "genderEndingHint": "-er (device noun) → masculine"
+          },
+          "related": [
+            { "german": "sehen", "english": "to watch", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Fernseher ist kaputt.", "en": "The television is broken." },
+            { "de": "Am Abend schaue ich Fernseher.", "en": "In the evening I watch television." },
+            { "de": "Die Fernseher sind heute sehr groß.", "en": "The televisions are very big today." }
+          ],
+          "topic": "Medien",
+          "tags": ["A2", "media"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "news, message",
+          "german": "Nachricht",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "die Nachrichten" },
+          "related": [
+            { "german": "berichten", "english": "to report", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich habe eine gute Nachricht.", "en": "I have good news." },
+            { "de": "Die Nachricht kam zu spät.", "en": "The message came too late." },
+            { "de": "Am Abend sehe ich die Nachrichten.", "en": "In the evening I watch the news." }
+          ],
+          "topic": "Medien",
+          "tags": ["A2", "media"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "radio",
+          "german": "Radio",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Radios" },
+          "related": [
+            { "german": "hören", "english": "to listen", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Radio ist zu laut.", "en": "The radio is too loud." },
+            { "de": "Im Auto höre ich Radio.", "en": "In the car I listen to the radio." },
+            { "de": "Die Radios spielen die gleiche Musik.", "en": "The radios play the same music." }
+          ],
+          "topic": "Medien",
+          "tags": ["A2", "media"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "photo",
+          "german": "Foto",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Fotos" },
+          "related": [
+            { "german": "die Kamera", "english": "camera", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Foto ist schön.", "en": "The photo is beautiful." },
+            { "de": "Ich mache ein Foto von der Stadt.", "en": "I take a photo of the city." },
+            { "de": "Die Fotos sind im Handy.", "en": "The photos are on the cell phone." }
+          ],
+          "topic": "Medien",
+          "tags": ["A2", "media"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to see, to watch",
+          "german": "sehen",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "sieht",
+            "praeteritum": "sah",
+            "perfekt": "hat gesehen",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Fernseher", "english": "television", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich sehe gern Filme.", "en": "I like to watch films.", "verbForm": "praesens" },
+            { "de": "Er sah den ganzen Tag fern.", "en": "He watched television all day.", "verbForm": "praeteritum" },
+            { "de": "Wir haben die Nachrichten gesehen.", "en": "We have watched the news.", "verbForm": "perfekt" }
+          ],
+          "topic": "Medien",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to hear, to listen",
+          "german": "hören",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "hört",
+            "praeteritum": "hörte",
+            "perfekt": "hat gehört",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Radio", "english": "radio", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich höre gern Musik.", "en": "I like to listen to music.", "verbForm": "praesens" },
+            { "de": "Sie hörte Radio.", "en": "She listened to the radio.", "verbForm": "praeteritum" },
+            { "de": "Wir haben die Nachricht gehört.", "en": "We have heard the news.", "verbForm": "perfekt" }
+          ],
+          "topic": "Medien",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to report",
+          "german": "berichten",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "verb": {
+            "praesens": "berichtet",
+            "praeteritum": "berichtete",
+            "perfekt": "hat berichtet",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Bericht", "english": "report", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Die Zeitung berichtet über das Wetter.", "en": "The newspaper reports about the weather.", "verbForm": "praesens" },
+            { "de": "Er berichtete von der Reise.", "en": "He reported about the trip.", "verbForm": "praeteritum" },
+            { "de": "Sie hat über den Unfall berichtet.", "en": "She has reported about the accident.", "verbForm": "perfekt" }
+          ],
+          "topic": "Medien",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "current, up-to-date",
+          "german": "aktuell",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "adjective": {
+            "opposites": ["veraltet"],
+            "comparative": "aktueller",
+            "superlative": "am aktuellsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Die Nachricht ist aktuell.", "en": "The news is current." },
+            { "de": "Diese Zeitung ist aktueller als die andere.", "en": "This newspaper is more up-to-date than the other." },
+            { "de": "Das ist die aktuellste Information.", "en": "That is the most current information." }
+          ],
+          "topic": "Medien",
+          "tags": ["A2", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "famous",
+          "german": "berühmt",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "adjective": {
+            "opposites": ["unbekannt"],
+            "synonyms": ["bekannt"],
+            "comparative": "berühmter",
+            "superlative": "am berühmtesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Der Schauspieler ist berühmt.", "en": "The actor is famous." },
+            { "de": "Sie ist berühmter als ihr Bruder.", "en": "She is more famous than her brother." },
+            { "de": "Das ist das berühmteste Foto der Welt.", "en": "That is the most famous photo in the world." }
+          ],
+          "topic": "Medien",
+          "tags": ["A2", "adjective"]
+        }
+      ]
+    }
+  ]
+}

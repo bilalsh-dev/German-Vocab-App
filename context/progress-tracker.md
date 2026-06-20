@@ -44,10 +44,14 @@ Update this file whenever the current phase, active feature, or implementation s
 13. `13-frequency-and-level.md` — frequency rank + CEFR level fields, frequency-ordered new-card introduction, level filtering. Gap #3 (prerequisite for A2/B1, gap #4).
 
 ## In Progress
-- None.
+- **Feature 11 — A1/A2 starter content expansion:** authored 23 new topic decks (no mechanism/schema change — reuses Feature 09 importer + `starter-content.test.ts`). Now 25 decks / 252 cards total.
+  - **A1 (17 topics, per `prompt.md`):** Familie, Büro (pre-existing) + Zuhause, Essen & Trinken, Alltag, Zeit & Datum, Wetter, Kleidung, Einkaufen, Verkehr, Schule, Reisen, Gesundheit, Hobbys, Universität, Technik, Kommunikation.
+  - **A2 (8 topics, Goethe/Netzwerk set):** Gefühle, Tiere, Beruf, Stadt, Medien, Restaurant, Umwelt, Feste.
+  - Each deck ~10–11 cards, balanced across nouns/verbs/adjectives (+ gender/ending/group hints, all three verb forms with labelled examples, opposites/synonyms, related-word links). Level encoded via a `tags` entry (`"A1"`/`"A2"`) since no `level` field exists yet (that is Feature 13).
+  - `test` (170) / `lint` pass. Remaining: optional vowel-mark accuracy review, and more A2/B1 topics if desired.
 
 ## Next Up
-- Roadmap (01–10) complete. Remaining work is polish/expansion: broaden the A1 starter content (see Open Questions) and tune scheduler/AI parameters.
+- Tune scheduler/AI parameters; optionally extend to B1 content and add the `level` field (Feature 13) so A1/A2/B1 is first-class rather than a tag.
 
 ## Open Questions
 - Starter-deck content scope: an initial set ships (Familie 8 + Büro 9 = 17 fully-modeled cards). Expanding to the learner's full A1 source (e.g. Netzwerk A1 chapters) still needs the owner's chapter/word-list confirmation — the importer/schema/manifest are in place, so expansion is additive (drop new files in `public/starter-decks/` + add a manifest entry; `starter-content.test.ts` guards validity).

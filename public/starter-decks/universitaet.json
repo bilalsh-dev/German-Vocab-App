@@ -1,0 +1,215 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Universität",
+      "description": "German A1 starter deck — university and studying.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "university",
+          "german": "Universität",
+          "vowelMarks": [{ "index": 9, "length": "long" }],
+          "noun": {
+            "gender": "feminine",
+            "plural": "die Universitäten",
+            "genderEndingHint": "-tät → feminine"
+          },
+          "related": [
+            { "german": "der Student", "english": "student", "relation": "related" },
+            { "german": "studieren", "english": "to study", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Universität ist sehr groß.", "en": "The university is very big." },
+            { "de": "Ich studiere an der Universität.", "en": "I study at the university." },
+            { "de": "Die Universitäten in Deutschland sind bekannt.", "en": "The universities in Germany are well known." }
+          ],
+          "topic": "Universität",
+          "tags": ["A1", "university"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "student",
+          "german": "Student",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Studenten" },
+          "related": [
+            { "german": "studieren", "english": "to study", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Student lernt für die Prüfung.", "en": "The student studies for the exam." },
+            { "de": "Ich bin Student.", "en": "I am a student." },
+            { "de": "Die Studenten wohnen im Wohnheim.", "en": "The students live in the dormitory." }
+          ],
+          "topic": "Universität",
+          "tags": ["A1", "university"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "lecture",
+          "german": "Vorlesung",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": {
+            "gender": "feminine",
+            "plural": "die Vorlesungen",
+            "genderEndingHint": "-ung → feminine"
+          },
+          "related": [
+            { "german": "die Universität", "english": "university", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Vorlesung beginnt um zehn.", "en": "The lecture begins at ten." },
+            { "de": "Ich gehe zur Vorlesung.", "en": "I am going to the lecture." },
+            { "de": "Die Vorlesungen sind interessant.", "en": "The lectures are interesting." }
+          ],
+          "topic": "Universität",
+          "tags": ["A1", "university"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "exam",
+          "german": "Prüfung",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "noun": {
+            "gender": "feminine",
+            "plural": "die Prüfungen",
+            "genderEndingHint": "-ung → feminine"
+          },
+          "related": [
+            { "german": "prüfen", "english": "to check", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Die Prüfung ist schwierig.", "en": "The exam is difficult." },
+            { "de": "Ich lerne für die Prüfung.", "en": "I study for the exam." },
+            { "de": "Die Prüfungen sind im Sommer.", "en": "The exams are in summer." }
+          ],
+          "topic": "Universität",
+          "tags": ["A1", "university"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "studies, degree program",
+          "german": "Studium",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Studien" },
+          "related": [
+            { "german": "studieren", "english": "to study", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Mein Studium dauert drei Jahre.", "en": "My studies last three years." },
+            { "de": "Das Studium macht mir Spaß.", "en": "I enjoy my studies." },
+            { "de": "Nach dem Studium suche ich einen Job.", "en": "After my studies I will look for a job." }
+          ],
+          "topic": "Universität",
+          "tags": ["A1", "university"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to study",
+          "german": "studieren",
+          "vowelMarks": [{ "index": 4, "length": "long" }],
+          "verb": {
+            "praesens": "studiert",
+            "praeteritum": "studierte",
+            "perfekt": "hat studiert",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Studium", "english": "studies", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich studiere Medizin.", "en": "I study medicine.", "verbForm": "praesens" },
+            { "de": "Er studierte in Berlin.", "en": "He studied in Berlin.", "verbForm": "praeteritum" },
+            { "de": "Sie hat Jura studiert.", "en": "She has studied law.", "verbForm": "perfekt" }
+          ],
+          "topic": "Universität",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to check, to examine",
+          "german": "prüfen",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "verb": {
+            "praesens": "prüft",
+            "praeteritum": "prüfte",
+            "perfekt": "hat geprüft",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Prüfung", "english": "exam", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Der Lehrer prüft die Aufgaben.", "en": "The teacher checks the tasks.", "verbForm": "praesens" },
+            { "de": "Sie prüfte den Text genau.", "en": "She checked the text carefully.", "verbForm": "praeteritum" },
+            { "de": "Wir haben das Ergebnis geprüft.", "en": "We have checked the result.", "verbForm": "perfekt" }
+          ],
+          "topic": "Universität",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to understand",
+          "german": "verstehen",
+          "vowelMarks": [{ "index": 5, "length": "long" }],
+          "verb": {
+            "praesens": "versteht",
+            "praeteritum": "verstand",
+            "perfekt": "hat verstanden",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Frage", "english": "question", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich verstehe die Frage.", "en": "I understand the question.", "verbForm": "praesens" },
+            { "de": "Er verstand die Antwort nicht.", "en": "He did not understand the answer.", "verbForm": "praeteritum" },
+            { "de": "Wir haben alles verstanden.", "en": "We have understood everything.", "verbForm": "perfekt" }
+          ],
+          "topic": "Universität",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "clever, smart",
+          "german": "klug",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "adjective": {
+            "opposites": ["dumm"],
+            "synonyms": ["intelligent"],
+            "comparative": "klüger",
+            "superlative": "am klügsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Der Student ist klug.", "en": "The student is clever." },
+            { "de": "Sie ist klüger als ihr Bruder.", "en": "She is cleverer than her brother." },
+            { "de": "Er gibt die klügste Antwort.", "en": "He gives the cleverest answer." }
+          ],
+          "topic": "Universität",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "important",
+          "german": "wichtig",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["unwichtig"],
+            "comparative": "wichtiger",
+            "superlative": "am wichtigsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Die Prüfung ist wichtig.", "en": "The exam is important." },
+            { "de": "Diese Frage ist wichtiger.", "en": "This question is more important." },
+            { "de": "Das ist der wichtigste Tag.", "en": "That is the most important day." }
+          ],
+          "topic": "Universität",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

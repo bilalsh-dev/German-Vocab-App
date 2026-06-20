@@ -1,0 +1,231 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Alltag",
+      "description": "German A1 starter deck — daily routine.",
+      "cards": [
+        {
+          "partOfSpeech": "verb",
+          "english": "to get up",
+          "german": "aufstehen",
+          "vowelMarks": [{ "index": 5, "length": "long" }],
+          "verb": {
+            "praesens": "steht auf",
+            "praeteritum": "stand auf",
+            "perfekt": "ist aufgestanden",
+            "auxiliary": "sein"
+          },
+          "related": [
+            { "german": "der Morgen", "english": "morning", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich stehe um sieben Uhr auf.", "en": "I get up at seven o'clock.", "verbForm": "praesens" },
+            { "de": "Gestern stand ich früh auf.", "en": "Yesterday I got up early.", "verbForm": "praeteritum" },
+            { "de": "Er ist heute spät aufgestanden.", "en": "He got up late today.", "verbForm": "perfekt" }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to sleep",
+          "german": "schlafen",
+          "vowelMarks": [{ "index": 4, "length": "long" }],
+          "verb": {
+            "praesens": "schläft",
+            "praeteritum": "schlief",
+            "perfekt": "hat geschlafen",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "müde", "english": "tired", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Kind schläft.", "en": "The child sleeps.", "verbForm": "praesens" },
+            { "de": "Ich schlief sehr gut.", "en": "I slept very well.", "verbForm": "praeteritum" },
+            { "de": "Wir haben lange geschlafen.", "en": "We have slept for a long time.", "verbForm": "perfekt" }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to work",
+          "german": "arbeiten",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "verb": {
+            "praesens": "arbeitet",
+            "praeteritum": "arbeitete",
+            "perfekt": "hat gearbeitet",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Arbeit", "english": "work", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Sie arbeitet im Büro.", "en": "She works in the office.", "verbForm": "praesens" },
+            { "de": "Er arbeitete den ganzen Tag.", "en": "He worked the whole day.", "verbForm": "praeteritum" },
+            { "de": "Ich habe heute viel gearbeitet.", "en": "I have worked a lot today.", "verbForm": "perfekt" }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to wash",
+          "german": "waschen",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "verb": {
+            "praesens": "wäscht",
+            "praeteritum": "wusch",
+            "perfekt": "hat gewaschen",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Wäsche", "english": "laundry", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich wasche meine Hände.", "en": "I wash my hands.", "verbForm": "praesens" },
+            { "de": "Er wusch das Auto.", "en": "He washed the car.", "verbForm": "praeteritum" },
+            { "de": "Sie hat die Wäsche gewaschen.", "en": "She has washed the laundry.", "verbForm": "perfekt" }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to go",
+          "german": "gehen",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "geht",
+            "praeteritum": "ging",
+            "perfekt": "ist gegangen",
+            "auxiliary": "sein"
+          },
+          "related": [
+            { "german": "der Weg", "english": "way", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich gehe zur Arbeit.", "en": "I go to work.", "verbForm": "praesens" },
+            { "de": "Er ging nach Hause.", "en": "He went home.", "verbForm": "praeteritum" },
+            { "de": "Wir sind ins Kino gegangen.", "en": "We have gone to the cinema.", "verbForm": "perfekt" }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "day",
+          "german": "Tag",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Tage" },
+          "related": [
+            { "german": "der Morgen", "english": "morning", "relation": "related" },
+            { "german": "der Abend", "english": "evening", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Tag ist lang.", "en": "The day is long." },
+            { "de": "Ich arbeite jeden Tag.", "en": "I work every day." },
+            { "de": "Die Tage werden kürzer.", "en": "The days are getting shorter." }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "morning",
+          "german": "Morgen",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Morgen" },
+          "related": [
+            { "german": "der Abend", "english": "evening", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Am Morgen trinke ich Kaffee.", "en": "In the morning I drink coffee." },
+            { "de": "Guten Morgen!", "en": "Good morning!" },
+            { "de": "Der Morgen ist kalt.", "en": "The morning is cold." }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "evening",
+          "german": "Abend",
+          "vowelMarks": [{ "index": 0, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Abende" },
+          "related": [
+            { "german": "der Morgen", "english": "morning", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Am Abend lese ich ein Buch.", "en": "In the evening I read a book." },
+            { "de": "Guten Abend!", "en": "Good evening!" },
+            { "de": "Der Abend war schön.", "en": "The evening was nice." }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "work",
+          "german": "Arbeit",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Arbeiten" },
+          "related": [
+            { "german": "arbeiten", "english": "to work", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Die Arbeit macht mir Spaß.", "en": "I enjoy the work." },
+            { "de": "Ich fahre mit dem Bus zur Arbeit.", "en": "I take the bus to work." },
+            { "de": "Nach der Arbeit gehe ich nach Hause.", "en": "After work I go home." }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "work"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "early",
+          "german": "früh",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "adjective": {
+            "opposites": ["spät"],
+            "comparative": "früher",
+            "superlative": "am frühesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Ich stehe früh auf.", "en": "I get up early." },
+            { "de": "Heute komme ich früher.", "en": "Today I am coming earlier." },
+            { "de": "Er steht am frühesten auf.", "en": "He gets up the earliest." }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "tired",
+          "german": "müde",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "adjective": {
+            "opposites": ["wach"],
+            "comparative": "müder",
+            "superlative": "am müdesten"
+          },
+          "related": [
+            { "german": "schlafen", "english": "to sleep", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich bin sehr müde.", "en": "I am very tired." },
+            { "de": "Am Abend bin ich müder als am Morgen.", "en": "In the evening I am more tired than in the morning." },
+            { "de": "Nach der Arbeit ist er am müdesten.", "en": "After work he is the most tired." }
+          ],
+          "topic": "Alltag",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

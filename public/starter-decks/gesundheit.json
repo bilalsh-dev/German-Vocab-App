@@ -1,0 +1,207 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Gesundheit",
+      "description": "German A1 starter deck — health.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "health",
+          "german": "Gesundheit",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "noun": {
+            "gender": "feminine",
+            "plural": "kein Plural",
+            "genderEndingHint": "-heit → feminine"
+          },
+          "related": [
+            { "german": "gesund", "english": "healthy", "relation": "derived" }
+          ],
+          "examples": [
+            { "de": "Die Gesundheit ist wichtig.", "en": "Health is important." },
+            { "de": "Sport ist gut für die Gesundheit.", "en": "Sport is good for your health." },
+            { "de": "Auf deine Gesundheit!", "en": "To your health!" }
+          ],
+          "topic": "Gesundheit",
+          "tags": ["A1", "health"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "doctor",
+          "german": "Arzt",
+          "vowelMarks": [{ "index": 0, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Ärzte" },
+          "related": [
+            { "german": "das Krankenhaus", "english": "hospital", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Arzt ist sehr freundlich.", "en": "The doctor is very friendly." },
+            { "de": "Ich gehe zum Arzt.", "en": "I am going to the doctor." },
+            { "de": "Die Ärzte arbeiten im Krankenhaus.", "en": "The doctors work in the hospital." }
+          ],
+          "topic": "Gesundheit",
+          "tags": ["A1", "health"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "hospital",
+          "german": "Krankenhaus",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Krankenhäuser" },
+          "related": [
+            { "german": "der Arzt", "english": "doctor", "relation": "related" },
+            { "german": "krank", "english": "sick", "relation": "compound" }
+          ],
+          "examples": [
+            { "de": "Das Krankenhaus ist groß.", "en": "The hospital is big." },
+            { "de": "Er liegt im Krankenhaus.", "en": "He is in the hospital." },
+            { "de": "Die Krankenhäuser sind modern.", "en": "The hospitals are modern." }
+          ],
+          "topic": "Gesundheit",
+          "tags": ["A1", "health"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "pain",
+          "german": "Schmerz",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Schmerzen" },
+          "related": [
+            { "german": "krank", "english": "sick", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Schmerz ist stark.", "en": "The pain is strong." },
+            { "de": "Ich habe Schmerzen im Rücken.", "en": "I have pain in my back." },
+            { "de": "Die Schmerzen sind weg.", "en": "The pain is gone." }
+          ],
+          "topic": "Gesundheit",
+          "tags": ["A1", "health"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "body",
+          "german": "Körper",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Körper" },
+          "related": [
+            { "german": "die Gesundheit", "english": "health", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Körper braucht Wasser.", "en": "The body needs water." },
+            { "de": "Sport ist gut für den Körper.", "en": "Sport is good for the body." },
+            { "de": "Der menschliche Körper ist komplex.", "en": "The human body is complex." }
+          ],
+          "topic": "Gesundheit",
+          "tags": ["A1", "health"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to feel",
+          "german": "fühlen",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "fühlt",
+            "praeteritum": "fühlte",
+            "perfekt": "hat gefühlt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Gefühl", "english": "feeling", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich fühle mich gut.", "en": "I feel good.", "verbForm": "praesens" },
+            { "de": "Sie fühlte sich krank.", "en": "She felt sick.", "verbForm": "praeteritum" },
+            { "de": "Er hat sich besser gefühlt.", "en": "He has felt better.", "verbForm": "perfekt" }
+          ],
+          "topic": "Gesundheit",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to help",
+          "german": "helfen",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "verb": {
+            "praesens": "hilft",
+            "praeteritum": "half",
+            "perfekt": "hat geholfen",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Hilfe", "english": "help", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Der Arzt hilft dem Patienten.", "en": "The doctor helps the patient.", "verbForm": "praesens" },
+            { "de": "Sie half mir gestern.", "en": "She helped me yesterday.", "verbForm": "praeteritum" },
+            { "de": "Er hat mir sehr geholfen.", "en": "He has helped me a lot.", "verbForm": "perfekt" }
+          ],
+          "topic": "Gesundheit",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "sick, ill",
+          "german": "krank",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "adjective": {
+            "opposites": ["gesund"],
+            "comparative": "kränker",
+            "superlative": "am kränksten"
+          },
+          "related": [
+            { "german": "das Krankenhaus", "english": "hospital", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich bin krank.", "en": "I am sick." },
+            { "de": "Er ist kränker als gestern.", "en": "He is sicker than yesterday." },
+            { "de": "Im Winter sind viele Menschen krank.", "en": "In winter many people are sick." }
+          ],
+          "topic": "Gesundheit",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "healthy",
+          "german": "gesund",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "adjective": {
+            "opposites": ["krank"],
+            "comparative": "gesünder",
+            "superlative": "am gesündesten"
+          },
+          "related": [
+            { "german": "die Gesundheit", "english": "health", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Obst ist gesund.", "en": "Fruit is healthy." },
+            { "de": "Gemüse ist gesünder als Süßigkeiten.", "en": "Vegetables are healthier than sweets." },
+            { "de": "Sie lebt am gesündesten.", "en": "She lives the healthiest." }
+          ],
+          "topic": "Gesundheit",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "strong",
+          "german": "stark",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "adjective": {
+            "opposites": ["schwach"],
+            "comparative": "stärker",
+            "superlative": "am stärksten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Der Mann ist stark.", "en": "The man is strong." },
+            { "de": "Der Kaffee ist stärker als der Tee.", "en": "The coffee is stronger than the tea." },
+            { "de": "Er hat die stärksten Schmerzen am Morgen.", "en": "He has the strongest pain in the morning." }
+          ],
+          "topic": "Gesundheit",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Wetter",
+      "description": "German A1 starter deck — weather.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "weather",
+          "german": "Wetter",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "kein Plural" },
+          "related": [
+            { "german": "der Regen", "english": "rain", "relation": "related" },
+            { "german": "die Sonne", "english": "sun", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Wetter ist heute schön.", "en": "The weather is nice today." },
+            { "de": "Wie ist das Wetter morgen?", "en": "What is the weather like tomorrow?" },
+            { "de": "Bei diesem Wetter bleibe ich zu Hause.", "en": "In this weather I stay at home." }
+          ],
+          "topic": "Wetter",
+          "tags": ["A1", "weather"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "rain",
+          "german": "Regen",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "kein Plural",
+            "genderGroupHint": "weather words are masculine (der Regen, der Schnee, der Wind)"
+          },
+          "related": [
+            { "german": "regnen", "english": "to rain", "relation": "derived" }
+          ],
+          "examples": [
+            { "de": "Der Regen ist stark.", "en": "The rain is heavy." },
+            { "de": "Im Herbst gibt es viel Regen.", "en": "In autumn there is a lot of rain." },
+            { "de": "Nach dem Regen kommt die Sonne.", "en": "After the rain comes the sun." }
+          ],
+          "topic": "Wetter",
+          "tags": ["A1", "weather"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "snow",
+          "german": "Schnee",
+          "vowelMarks": [{ "index": 4, "length": "long" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "kein Plural",
+            "genderGroupHint": "weather words are masculine (der Regen, der Schnee, der Wind)"
+          },
+          "related": [
+            { "german": "schneien", "english": "to snow", "relation": "derived" },
+            { "german": "der Winter", "english": "winter", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Schnee ist weiß.", "en": "The snow is white." },
+            { "de": "Im Winter liegt viel Schnee.", "en": "In winter there is a lot of snow." },
+            { "de": "Die Kinder spielen im Schnee.", "en": "The children play in the snow." }
+          ],
+          "topic": "Wetter",
+          "tags": ["A1", "weather"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "wind",
+          "german": "Wind",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "die Winde",
+            "genderGroupHint": "weather words are masculine (der Regen, der Schnee, der Wind)"
+          },
+          "related": [
+            { "german": "der Regen", "english": "rain", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Wind ist kalt.", "en": "The wind is cold." },
+            { "de": "Heute weht ein starker Wind.", "en": "Today a strong wind is blowing." },
+            { "de": "Am Meer gibt es oft Wind.", "en": "At the sea there is often wind." }
+          ],
+          "topic": "Wetter",
+          "tags": ["A1", "weather"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "sun",
+          "german": "Sonne",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Sonnen" },
+          "related": [
+            { "german": "sonnig", "english": "sunny", "relation": "derived" }
+          ],
+          "examples": [
+            { "de": "Die Sonne scheint.", "en": "The sun is shining." },
+            { "de": "Im Sommer ist die Sonne stark.", "en": "In summer the sun is strong." },
+            { "de": "Ich sitze gern in der Sonne.", "en": "I like to sit in the sun." }
+          ],
+          "topic": "Wetter",
+          "tags": ["A1", "weather"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to rain",
+          "german": "regnen",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "regnet",
+            "praeteritum": "regnete",
+            "perfekt": "hat geregnet",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Regen", "english": "rain", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Es regnet heute.", "en": "It is raining today.", "verbForm": "praesens" },
+            { "de": "Gestern regnete es den ganzen Tag.", "en": "Yesterday it rained all day.", "verbForm": "praeteritum" },
+            { "de": "Es hat viel geregnet.", "en": "It has rained a lot.", "verbForm": "perfekt" }
+          ],
+          "topic": "Wetter",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to snow",
+          "german": "schneien",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "schneit",
+            "praeteritum": "schneite",
+            "perfekt": "hat geschneit",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Schnee", "english": "snow", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Im Winter schneit es oft.", "en": "In winter it often snows.", "verbForm": "praesens" },
+            { "de": "Gestern schneite es.", "en": "Yesterday it snowed.", "verbForm": "praeteritum" },
+            { "de": "Es hat die ganze Nacht geschneit.", "en": "It has snowed all night.", "verbForm": "perfekt" }
+          ],
+          "topic": "Wetter",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "warm",
+          "german": "warm",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["kalt"],
+            "comparative": "wärmer",
+            "superlative": "am wärmsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Wetter ist warm.", "en": "The weather is warm." },
+            { "de": "Heute ist es wärmer als gestern.", "en": "Today it is warmer than yesterday." },
+            { "de": "Im Juli ist es am wärmsten.", "en": "In July it is the warmest." }
+          ],
+          "topic": "Wetter",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "sunny",
+          "german": "sonnig",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["bewölkt"],
+            "comparative": "sonniger",
+            "superlative": "am sonnigsten"
+          },
+          "related": [
+            { "german": "die Sonne", "english": "sun", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Heute ist es sonnig.", "en": "Today it is sunny." },
+            { "de": "Morgen wird es sonniger.", "en": "Tomorrow it will be sunnier." },
+            { "de": "Im Süden ist es am sonnigsten.", "en": "In the south it is the sunniest." }
+          ],
+          "topic": "Wetter",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "hot",
+          "german": "heiß",
+          "vowelMarks": [],
+          "adjective": {
+            "opposites": ["kalt"],
+            "comparative": "heißer",
+            "superlative": "am heißesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Im Sommer ist es heiß.", "en": "In summer it is hot." },
+            { "de": "Heute ist es heißer als gestern.", "en": "Today it is hotter than yesterday." },
+            { "de": "In der Wüste ist es am heißesten.", "en": "In the desert it is the hottest." }
+          ],
+          "topic": "Wetter",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

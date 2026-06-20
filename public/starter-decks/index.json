@@ -13,6 +13,167 @@
       "name": "Büro",
       "description": "German A1 starter deck — office and work.",
       "cardCount": 9
+    },
+    {
+      "id": "zuhause",
+      "file": "zuhause.json",
+      "name": "Zuhause",
+      "description": "German A1 starter deck — home and living.",
+      "cardCount": 11
+    },
+    {
+      "id": "essen",
+      "file": "essen.json",
+      "name": "Essen & Trinken",
+      "description": "German A1 starter deck — food and drinks.",
+      "cardCount": 11
+    },
+    {
+      "id": "alltag",
+      "file": "alltag.json",
+      "name": "Alltag",
+      "description": "German A1 starter deck — daily routine.",
+      "cardCount": 11
+    },
+    {
+      "id": "zeit",
+      "file": "zeit.json",
+      "name": "Zeit & Datum",
+      "description": "German A1 starter deck — time and dates.",
+      "cardCount": 11
+    },
+    {
+      "id": "wetter",
+      "file": "wetter.json",
+      "name": "Wetter",
+      "description": "German A1 starter deck — weather.",
+      "cardCount": 10
+    },
+    {
+      "id": "kleidung",
+      "file": "kleidung.json",
+      "name": "Kleidung",
+      "description": "German A1 starter deck — clothing.",
+      "cardCount": 10
+    },
+    {
+      "id": "einkaufen",
+      "file": "einkaufen.json",
+      "name": "Einkaufen",
+      "description": "German A1 starter deck — shopping.",
+      "cardCount": 10
+    },
+    {
+      "id": "verkehr",
+      "file": "verkehr.json",
+      "name": "Verkehr",
+      "description": "German A1 starter deck — transportation.",
+      "cardCount": 10
+    },
+    {
+      "id": "schule",
+      "file": "schule.json",
+      "name": "Schule",
+      "description": "German A1 starter deck — school.",
+      "cardCount": 11
+    },
+    {
+      "id": "reisen",
+      "file": "reisen.json",
+      "name": "Reisen",
+      "description": "German A1 starter deck — travel.",
+      "cardCount": 10
+    },
+    {
+      "id": "gesundheit",
+      "file": "gesundheit.json",
+      "name": "Gesundheit",
+      "description": "German A1 starter deck — health.",
+      "cardCount": 10
+    },
+    {
+      "id": "hobbys",
+      "file": "hobbys.json",
+      "name": "Hobbys",
+      "description": "German A1 starter deck — hobbies and free time.",
+      "cardCount": 10
+    },
+    {
+      "id": "universitaet",
+      "file": "universitaet.json",
+      "name": "Universität",
+      "description": "German A1 starter deck — university and studying.",
+      "cardCount": 10
+    },
+    {
+      "id": "technik",
+      "file": "technik.json",
+      "name": "Technik",
+      "description": "German A1 starter deck — technology.",
+      "cardCount": 10
+    },
+    {
+      "id": "kommunikation",
+      "file": "kommunikation.json",
+      "name": "Kommunikation",
+      "description": "German A1 starter deck — communication.",
+      "cardCount": 10
+    },
+    {
+      "id": "gefuehle",
+      "file": "gefuehle.json",
+      "name": "Gefühle",
+      "description": "German A2 starter deck — emotions and feelings.",
+      "cardCount": 10
+    },
+    {
+      "id": "tiere",
+      "file": "tiere.json",
+      "name": "Tiere",
+      "description": "German A2 starter deck — animals.",
+      "cardCount": 10
+    },
+    {
+      "id": "beruf",
+      "file": "beruf.json",
+      "name": "Beruf",
+      "description": "German A2 starter deck — jobs and working life.",
+      "cardCount": 10
+    },
+    {
+      "id": "stadt",
+      "file": "stadt.json",
+      "name": "Stadt",
+      "description": "German A2 starter deck — city and places.",
+      "cardCount": 10
+    },
+    {
+      "id": "medien",
+      "file": "medien.json",
+      "name": "Medien",
+      "description": "German A2 starter deck — media.",
+      "cardCount": 10
+    },
+    {
+      "id": "restaurant",
+      "file": "restaurant.json",
+      "name": "Restaurant",
+      "description": "German A2 starter deck — eating out.",
+      "cardCount": 10
+    },
+    {
+      "id": "umwelt",
+      "file": "umwelt.json",
+      "name": "Umwelt",
+      "description": "German A2 starter deck — environment and nature.",
+      "cardCount": 10
+    },
+    {
+      "id": "feste",
+      "file": "feste.json",
+      "name": "Feste",
+      "description": "German A2 starter deck — celebrations and festivals.",
+      "cardCount": 10
     }
   ]
 }

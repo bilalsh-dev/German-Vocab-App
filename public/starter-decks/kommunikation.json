@@ -1,0 +1,204 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Kommunikation",
+      "description": "German A1 starter deck — communication.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "language",
+          "german": "Sprache",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "die Sprachen" },
+          "related": [
+            { "german": "sprechen", "english": "to speak", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Deutsch ist eine schöne Sprache.", "en": "German is a beautiful language." },
+            { "de": "Ich lerne eine neue Sprache.", "en": "I am learning a new language." },
+            { "de": "Sie spricht drei Sprachen.", "en": "She speaks three languages." }
+          ],
+          "topic": "Kommunikation",
+          "tags": ["A1", "communication"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "word",
+          "german": "Wort",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Wörter" },
+          "related": [
+            { "german": "die Sprache", "english": "language", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Wort ist neu für mich.", "en": "The word is new to me." },
+            { "de": "Wie heißt dieses Wort auf Deutsch?", "en": "What is this word in German?" },
+            { "de": "Ich lerne jeden Tag neue Wörter.", "en": "I learn new words every day." }
+          ],
+          "topic": "Kommunikation",
+          "tags": ["A1", "communication"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "question",
+          "german": "Frage",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "die Fragen" },
+          "related": [
+            { "german": "fragen", "english": "to ask", "relation": "nominalization" },
+            { "german": "die Antwort", "english": "answer", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich habe eine Frage.", "en": "I have a question." },
+            { "de": "Die Frage ist schwierig.", "en": "The question is difficult." },
+            { "de": "Hast du Fragen?", "en": "Do you have questions?" }
+          ],
+          "topic": "Kommunikation",
+          "tags": ["A1", "communication"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "answer",
+          "german": "Antwort",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Antworten" },
+          "related": [
+            { "german": "antworten", "english": "to answer", "relation": "nominalization" },
+            { "german": "die Frage", "english": "question", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Antwort ist richtig.", "en": "The answer is correct." },
+            { "de": "Ich weiß die Antwort nicht.", "en": "I don't know the answer." },
+            { "de": "Seine Antworten sind immer kurz.", "en": "His answers are always short." }
+          ],
+          "topic": "Kommunikation",
+          "tags": ["A1", "communication"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "letter (mail)",
+          "german": "Brief",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Briefe" },
+          "related": [
+            { "german": "schreiben", "english": "to write", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Brief ist für dich.", "en": "The letter is for you." },
+            { "de": "Ich schreibe einen Brief.", "en": "I am writing a letter." },
+            { "de": "Die Briefe liegen auf dem Tisch.", "en": "The letters are on the table." }
+          ],
+          "topic": "Kommunikation",
+          "tags": ["A1", "communication"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to speak",
+          "german": "sprechen",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "verb": {
+            "praesens": "spricht",
+            "praeteritum": "sprach",
+            "perfekt": "hat gesprochen",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Sprache", "english": "language", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich spreche Deutsch.", "en": "I speak German.", "verbForm": "praesens" },
+            { "de": "Er sprach sehr langsam.", "en": "He spoke very slowly.", "verbForm": "praeteritum" },
+            { "de": "Wir haben über das Wetter gesprochen.", "en": "We have talked about the weather.", "verbForm": "perfekt" }
+          ],
+          "topic": "Kommunikation",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to ask",
+          "german": "fragen",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "verb": {
+            "praesens": "fragt",
+            "praeteritum": "fragte",
+            "perfekt": "hat gefragt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Frage", "english": "question", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich frage den Lehrer.", "en": "I ask the teacher.", "verbForm": "praesens" },
+            { "de": "Sie fragte nach dem Weg.", "en": "She asked for the way.", "verbForm": "praeteritum" },
+            { "de": "Er hat mich etwas gefragt.", "en": "He has asked me something.", "verbForm": "perfekt" }
+          ],
+          "topic": "Kommunikation",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to answer",
+          "german": "antworten",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "verb": {
+            "praesens": "antwortet",
+            "praeteritum": "antwortete",
+            "perfekt": "hat geantwortet",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Antwort", "english": "answer", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich antworte auf die Frage.", "en": "I answer the question.", "verbForm": "praesens" },
+            { "de": "Sie antwortete schnell.", "en": "She answered quickly.", "verbForm": "praeteritum" },
+            { "de": "Er hat nicht geantwortet.", "en": "He has not answered.", "verbForm": "perfekt" }
+          ],
+          "topic": "Kommunikation",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "friendly",
+          "german": "freundlich",
+          "vowelMarks": [],
+          "adjective": {
+            "opposites": ["unfreundlich"],
+            "synonyms": ["nett"],
+            "comparative": "freundlicher",
+            "superlative": "am freundlichsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Der Lehrer ist freundlich.", "en": "The teacher is friendly." },
+            { "de": "Sie ist freundlicher als ihr Kollege.", "en": "She is friendlier than her colleague." },
+            { "de": "Er gibt die freundlichste Antwort.", "en": "He gives the friendliest answer." }
+          ],
+          "topic": "Kommunikation",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "quiet, soft",
+          "german": "leise",
+          "vowelMarks": [],
+          "adjective": {
+            "opposites": ["laut"],
+            "comparative": "leiser",
+            "superlative": "am leisesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Die Musik ist leise.", "en": "The music is quiet." },
+            { "de": "Bitte sprich leiser.", "en": "Please speak more quietly." },
+            { "de": "Im Bett spricht er am leisesten.", "en": "In bed he speaks the most quietly." }
+          ],
+          "topic": "Kommunikation",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

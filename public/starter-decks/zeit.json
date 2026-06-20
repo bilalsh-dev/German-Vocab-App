@@ -1,0 +1,225 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Zeit & Datum",
+      "description": "German A1 starter deck — time and dates.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "time",
+          "german": "Zeit",
+          "vowelMarks": [],
+          "noun": { "gender": "feminine", "plural": "die Zeiten" },
+          "related": [
+            { "german": "die Uhr", "english": "clock", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich habe keine Zeit.", "en": "I have no time." },
+            { "de": "Die Zeit vergeht schnell.", "en": "Time passes quickly." },
+            { "de": "Zu welcher Zeit kommst du?", "en": "At what time are you coming?" }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "clock, hour",
+          "german": "Uhr",
+          "vowelMarks": [{ "index": 0, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "die Uhren" },
+          "related": [
+            { "german": "die Zeit", "english": "time", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Uhr ist kaputt.", "en": "The clock is broken." },
+            { "de": "Es ist acht Uhr.", "en": "It is eight o'clock." },
+            { "de": "Wie viel Uhr ist es?", "en": "What time is it?" }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "week",
+          "german": "Woche",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Wochen" },
+          "related": [
+            { "german": "das Wochenende", "english": "weekend", "relation": "compound" }
+          ],
+          "examples": [
+            { "de": "Die Woche hat sieben Tage.", "en": "The week has seven days." },
+            { "de": "Nächste Woche habe ich Urlaub.", "en": "Next week I have vacation." },
+            { "de": "Diese Woche arbeite ich viel.", "en": "This week I work a lot." }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "month",
+          "german": "Monat",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "die Monate",
+            "genderGroupHint": "months are masculine (der Januar, der Februar …)"
+          },
+          "related": [
+            { "german": "das Jahr", "english": "year", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Monat hat dreißig Tage.", "en": "The month has thirty days." },
+            { "de": "Im nächsten Monat fahre ich nach Italien.", "en": "Next month I am going to Italy." },
+            { "de": "Jeden Monat zahle ich Miete.", "en": "Every month I pay rent." }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "year",
+          "german": "Jahr",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Jahre" },
+          "related": [
+            { "german": "der Monat", "english": "month", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Jahr hat zwölf Monate.", "en": "The year has twelve months." },
+            { "de": "Nächstes Jahr lerne ich Spanisch.", "en": "Next year I will learn Spanish." },
+            { "de": "Ich bin seit einem Jahr in Deutschland.", "en": "I have been in Germany for a year." }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "Monday",
+          "german": "Montag",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "die Montage",
+            "genderGroupHint": "days of the week are masculine (der Montag, der Dienstag …)"
+          },
+          "related": [
+            { "german": "die Woche", "english": "week", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Am Montag beginnt die Arbeit.", "en": "Work begins on Monday." },
+            { "de": "Der Montag ist mein erster Arbeitstag.", "en": "Monday is my first work day." },
+            { "de": "Jeden Montag habe ich einen Kurs.", "en": "Every Monday I have a class." }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "summer",
+          "german": "Sommer",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "die Sommer",
+            "genderGroupHint": "seasons are masculine (der Sommer, der Winter …)"
+          },
+          "related": [
+            { "german": "der Winter", "english": "winter", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Im Sommer ist es warm.", "en": "In summer it is warm." },
+            { "de": "Der Sommer ist meine Lieblingsjahreszeit.", "en": "Summer is my favorite season." },
+            { "de": "Wir fahren im Sommer ans Meer.", "en": "We go to the sea in summer." }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "winter",
+          "german": "Winter",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "die Winter",
+            "genderGroupHint": "seasons are masculine (der Sommer, der Winter …)"
+          },
+          "related": [
+            { "german": "der Sommer", "english": "summer", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Im Winter ist es kalt.", "en": "In winter it is cold." },
+            { "de": "Der Winter dauert lange.", "en": "The winter lasts a long time." },
+            { "de": "Im Winter schneit es oft.", "en": "In winter it often snows." }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "time"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to begin",
+          "german": "beginnen",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "verb": {
+            "praesens": "beginnt",
+            "praeteritum": "begann",
+            "perfekt": "hat begonnen",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Beginn", "english": "beginning", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Der Film beginnt um acht.", "en": "The film begins at eight.", "verbForm": "praesens" },
+            { "de": "Die Stunde begann pünktlich.", "en": "The lesson began on time.", "verbForm": "praeteritum" },
+            { "de": "Der Kurs hat schon begonnen.", "en": "The course has already begun.", "verbForm": "perfekt" }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to wait",
+          "german": "warten",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "verb": {
+            "praesens": "wartet",
+            "praeteritum": "wartete",
+            "perfekt": "hat gewartet",
+            "auxiliary": "haben"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Ich warte auf den Bus.", "en": "I wait for the bus.", "verbForm": "praesens" },
+            { "de": "Sie wartete eine Stunde.", "en": "She waited for an hour.", "verbForm": "praeteritum" },
+            { "de": "Wir haben lange gewartet.", "en": "We have waited a long time.", "verbForm": "perfekt" }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "late",
+          "german": "spät",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "adjective": {
+            "opposites": ["früh"],
+            "comparative": "später",
+            "superlative": "am spätesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Es ist schon spät.", "en": "It is already late." },
+            { "de": "Heute komme ich später.", "en": "Today I am coming later." },
+            { "de": "Sie kam am spätesten.", "en": "She came the latest." }
+          ],
+          "topic": "Zeit",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

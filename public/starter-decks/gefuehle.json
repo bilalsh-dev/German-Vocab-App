@@ -1,0 +1,207 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Gefühle",
+      "description": "German A2 starter deck — emotions and feelings.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "feeling",
+          "german": "Gefühl",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Gefühle" },
+          "related": [
+            { "german": "fühlen", "english": "to feel", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Das ist ein schönes Gefühl.", "en": "That is a nice feeling." },
+            { "de": "Ich kann meine Gefühle nicht erklären.", "en": "I cannot explain my feelings." },
+            { "de": "Sie zeigt ihre Gefühle selten.", "en": "She rarely shows her feelings." }
+          ],
+          "topic": "Gefühle",
+          "tags": ["A2", "emotion"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "joy",
+          "german": "Freude",
+          "vowelMarks": [],
+          "noun": { "gender": "feminine", "plural": "die Freuden" },
+          "related": [
+            { "german": "sich freuen", "english": "to be happy", "relation": "derived" }
+          ],
+          "examples": [
+            { "de": "Die Freude war groß.", "en": "The joy was great." },
+            { "de": "Er hat Freude an der Musik.", "en": "He takes joy in music." },
+            { "de": "Zu meiner Freude kam sie pünktlich.", "en": "To my joy she came on time." }
+          ],
+          "topic": "Gefühle",
+          "tags": ["A2", "emotion"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "fear",
+          "german": "Angst",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Ängste" },
+          "related": [
+            { "german": "die Sorge", "english": "worry", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich habe Angst vor Hunden.", "en": "I am afraid of dogs." },
+            { "de": "Die Angst war groß.", "en": "The fear was great." },
+            { "de": "Er hat keine Angst.", "en": "He has no fear." }
+          ],
+          "topic": "Gefühle",
+          "tags": ["A2", "emotion"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "love",
+          "german": "Liebe",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "kein Plural" },
+          "related": [
+            { "german": "lieben", "english": "to love", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Die Liebe ist stark.", "en": "Love is strong." },
+            { "de": "Sie tut alles aus Liebe.", "en": "She does everything out of love." },
+            { "de": "Liebe auf den ersten Blick gibt es wirklich.", "en": "Love at first sight really exists." }
+          ],
+          "topic": "Gefühle",
+          "tags": ["A2", "emotion"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to be happy, to look forward to",
+          "german": "freuen",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "freut",
+            "praeteritum": "freute",
+            "perfekt": "hat gefreut",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Freude", "english": "joy", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich freue mich auf den Urlaub.", "en": "I look forward to the vacation.", "verbForm": "praesens" },
+            { "de": "Sie freute sich über das Geschenk.", "en": "She was happy about the gift.", "verbForm": "praeteritum" },
+            { "de": "Wir haben uns sehr gefreut.", "en": "We have been very happy.", "verbForm": "perfekt" }
+          ],
+          "topic": "Gefühle",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to love",
+          "german": "lieben",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "liebt",
+            "praeteritum": "liebte",
+            "perfekt": "hat geliebt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Liebe", "english": "love", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich liebe dich.", "en": "I love you.", "verbForm": "praesens" },
+            { "de": "Er liebte die Musik.", "en": "He loved the music.", "verbForm": "praeteritum" },
+            { "de": "Sie haben sich immer geliebt.", "en": "They have always loved each other.", "verbForm": "perfekt" }
+          ],
+          "topic": "Gefühle",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to laugh",
+          "german": "lachen",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "verb": {
+            "praesens": "lacht",
+            "praeteritum": "lachte",
+            "perfekt": "hat gelacht",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Lachen", "english": "laughter", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Das Kind lacht laut.", "en": "The child laughs loudly.", "verbForm": "praesens" },
+            { "de": "Wir lachten den ganzen Abend.", "en": "We laughed all evening.", "verbForm": "praeteritum" },
+            { "de": "Er hat über den Witz gelacht.", "en": "He has laughed at the joke.", "verbForm": "perfekt" }
+          ],
+          "topic": "Gefühle",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "happy",
+          "german": "glücklich",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "adjective": {
+            "opposites": ["traurig"],
+            "synonyms": ["froh"],
+            "comparative": "glücklicher",
+            "superlative": "am glücklichsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Ich bin glücklich.", "en": "I am happy." },
+            { "de": "Sie ist glücklicher als früher.", "en": "She is happier than before." },
+            { "de": "An diesem Tag war er am glücklichsten.", "en": "On this day he was the happiest." }
+          ],
+          "topic": "Gefühle",
+          "tags": ["A2", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "sad",
+          "german": "traurig",
+          "vowelMarks": [],
+          "adjective": {
+            "opposites": ["glücklich"],
+            "comparative": "trauriger",
+            "superlative": "am traurigsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Sie ist heute traurig.", "en": "She is sad today." },
+            { "de": "Der Film ist trauriger als das Buch.", "en": "The film is sadder than the book." },
+            { "de": "Am Abschied war ich am traurigsten.", "en": "At the farewell I was the saddest." }
+          ],
+          "topic": "Gefühle",
+          "tags": ["A2", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "angry, furious",
+          "german": "wütend",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "adjective": {
+            "opposites": ["ruhig"],
+            "synonyms": ["sauer"],
+            "comparative": "wütender",
+            "superlative": "am wütendsten"
+          },
+          "related": [
+            { "german": "die Wut", "english": "anger", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Er ist sehr wütend.", "en": "He is very angry." },
+            { "de": "Sie wurde immer wütender.", "en": "She got more and more angry." },
+            { "de": "Bei dieser Nachricht war er am wütendsten.", "en": "At this news he was the most furious." }
+          ],
+          "topic": "Gefühle",
+          "tags": ["A2", "adjective"]
+        }
+      ]
+    }
+  ]
+}

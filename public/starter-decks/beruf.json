@@ -1,0 +1,203 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Beruf",
+      "description": "German A2 starter deck — jobs and working life.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "job, profession",
+          "german": "Beruf",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Berufe" },
+          "related": [
+            { "german": "die Arbeit", "english": "work", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Was ist dein Beruf?", "en": "What is your profession?" },
+            { "de": "Sie hat einen interessanten Beruf.", "en": "She has an interesting profession." },
+            { "de": "Viele Berufe brauchen ein Studium.", "en": "Many professions require a degree." }
+          ],
+          "topic": "Beruf",
+          "tags": ["A2", "work"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "boss",
+          "german": "Chef",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Chefs" },
+          "related": [
+            { "german": "der Kollege", "english": "colleague", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Mein Chef ist sehr nett.", "en": "My boss is very nice." },
+            { "de": "Der Chef kommt um neun.", "en": "The boss comes at nine." },
+            { "de": "Die Chefs sind heute in einer Sitzung.", "en": "The bosses are in a meeting today." }
+          ],
+          "topic": "Beruf",
+          "tags": ["A2", "work"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "colleague",
+          "german": "Kollege",
+          "vowelMarks": [{ "index": 4, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Kollegen" },
+          "related": [
+            { "german": "der Chef", "english": "boss", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Mein Kollege hilft mir oft.", "en": "My colleague often helps me." },
+            { "de": "Der Kollege ist im Urlaub.", "en": "The colleague is on vacation." },
+            { "de": "Meine Kollegen sind freundlich.", "en": "My colleagues are friendly." }
+          ],
+          "topic": "Beruf",
+          "tags": ["A2", "work"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "salary",
+          "german": "Gehalt",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Gehälter" },
+          "related": [
+            { "german": "verdienen", "english": "to earn", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Gehalt ist gut.", "en": "The salary is good." },
+            { "de": "Sie bekommt ein hohes Gehalt.", "en": "She gets a high salary." },
+            { "de": "Die Gehälter steigen jedes Jahr.", "en": "The salaries rise every year." }
+          ],
+          "topic": "Beruf",
+          "tags": ["A2", "work"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "appointment, deadline",
+          "german": "Termin",
+          "vowelMarks": [{ "index": 4, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Termine" },
+          "related": [
+            { "german": "der Beruf", "english": "job", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich habe einen Termin beim Arzt.", "en": "I have an appointment at the doctor." },
+            { "de": "Der Termin ist am Montag.", "en": "The appointment is on Monday." },
+            { "de": "Sie hat viele Termine.", "en": "She has many appointments." }
+          ],
+          "topic": "Beruf",
+          "tags": ["A2", "work"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to earn",
+          "german": "verdienen",
+          "vowelMarks": [{ "index": 4, "length": "long" }],
+          "verb": {
+            "praesens": "verdient",
+            "praeteritum": "verdiente",
+            "perfekt": "hat verdient",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Gehalt", "english": "salary", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich verdiene genug Geld.", "en": "I earn enough money.", "verbForm": "praesens" },
+            { "de": "Er verdiente früher wenig.", "en": "He used to earn little.", "verbForm": "praeteritum" },
+            { "de": "Sie hat viel Geld verdient.", "en": "She has earned a lot of money.", "verbForm": "perfekt" }
+          ],
+          "topic": "Beruf",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to apply (for a job)",
+          "german": "bewerben",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "verb": {
+            "praesens": "bewirbt",
+            "praeteritum": "bewarb",
+            "perfekt": "hat beworben",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Bewerbung", "english": "application", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich bewerbe mich um die Stelle.", "en": "I apply for the position.", "verbForm": "praesens" },
+            { "de": "Er bewarb sich bei einer großen Firma.", "en": "He applied to a big company.", "verbForm": "praeteritum" },
+            { "de": "Sie hat sich um den Job beworben.", "en": "She has applied for the job.", "verbForm": "perfekt" }
+          ],
+          "topic": "Beruf",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to lead, to manage",
+          "german": "leiten",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "leitet",
+            "praeteritum": "leitete",
+            "perfekt": "hat geleitet",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Leitung", "english": "management", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Sie leitet die Firma.", "en": "She leads the company.", "verbForm": "praesens" },
+            { "de": "Er leitete das Team zwei Jahre.", "en": "He led the team for two years.", "verbForm": "praeteritum" },
+            { "de": "Wir haben das Projekt geleitet.", "en": "We have managed the project.", "verbForm": "perfekt" }
+          ],
+          "topic": "Beruf",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "successful",
+          "german": "erfolgreich",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "adjective": {
+            "opposites": ["erfolglos"],
+            "comparative": "erfolgreicher",
+            "superlative": "am erfolgreichsten"
+          },
+          "related": [
+            { "german": "der Erfolg", "english": "success", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Die Firma ist erfolgreich.", "en": "The company is successful." },
+            { "de": "Er ist erfolgreicher als sein Kollege.", "en": "He is more successful than his colleague." },
+            { "de": "Sie ist die erfolgreichste Chefin.", "en": "She is the most successful boss." }
+          ],
+          "topic": "Beruf",
+          "tags": ["A2", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "hard-working, diligent",
+          "german": "fleißig",
+          "vowelMarks": [],
+          "adjective": {
+            "opposites": ["faul"],
+            "comparative": "fleißiger",
+            "superlative": "am fleißigsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Der Student ist fleißig.", "en": "The student is hard-working." },
+            { "de": "Sie ist fleißiger als ihr Bruder.", "en": "She is more diligent than her brother." },
+            { "de": "Er ist der fleißigste Kollege.", "en": "He is the most hard-working colleague." }
+          ],
+          "topic": "Beruf",
+          "tags": ["A2", "adjective"]
+        }
+      ]
+    }
+  ]
+}

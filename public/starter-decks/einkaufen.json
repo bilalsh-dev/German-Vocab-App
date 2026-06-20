@@ -1,0 +1,205 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Einkaufen",
+      "description": "German A1 starter deck — shopping.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "shop, store",
+          "german": "Geschäft",
+          "vowelMarks": [{ "index": 5, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Geschäfte" },
+          "related": [
+            { "german": "der Supermarkt", "english": "supermarket", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Geschäft ist geschlossen.", "en": "The shop is closed." },
+            { "de": "Im Geschäft gibt es viele Schuhe.", "en": "In the shop there are many shoes." },
+            { "de": "Die Geschäfte öffnen um neun Uhr.", "en": "The shops open at nine o'clock." }
+          ],
+          "topic": "Einkaufen",
+          "tags": ["A1", "shopping"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "money",
+          "german": "Geld",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Gelder" },
+          "related": [
+            { "german": "der Preis", "english": "price", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich habe kein Geld.", "en": "I have no money." },
+            { "de": "Das Geld ist in der Tasche.", "en": "The money is in the bag." },
+            { "de": "Er verdient viel Geld.", "en": "He earns a lot of money." }
+          ],
+          "topic": "Einkaufen",
+          "tags": ["A1", "shopping"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "price",
+          "german": "Preis",
+          "vowelMarks": [],
+          "noun": { "gender": "masculine", "plural": "die Preise" },
+          "related": [
+            { "german": "das Geld", "english": "money", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Preis ist hoch.", "en": "The price is high." },
+            { "de": "Die Preise steigen jedes Jahr.", "en": "The prices rise every year." },
+            { "de": "Wie ist der Preis für das Brot?", "en": "What is the price for the bread?" }
+          ],
+          "topic": "Einkaufen",
+          "tags": ["A1", "shopping"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "supermarket",
+          "german": "Supermarkt",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "masculine", "plural": "die Supermärkte" },
+          "related": [
+            { "german": "das Geschäft", "english": "shop", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Supermarkt ist groß.", "en": "The supermarket is big." },
+            { "de": "Ich kaufe im Supermarkt ein.", "en": "I shop in the supermarket." },
+            { "de": "Der Supermarkt hat bis acht Uhr offen.", "en": "The supermarket is open until eight o'clock." }
+          ],
+          "topic": "Einkaufen",
+          "tags": ["A1", "shopping"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "customer",
+          "german": "Kunde",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Kunden" },
+          "related": [
+            { "german": "das Geschäft", "english": "shop", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Kunde bezahlt an der Kasse.", "en": "The customer pays at the till." },
+            { "de": "Der Kunde ist immer freundlich.", "en": "The customer is always friendly." },
+            { "de": "Im Geschäft sind viele Kunden.", "en": "There are many customers in the shop." }
+          ],
+          "topic": "Einkaufen",
+          "tags": ["A1", "shopping"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to go shopping",
+          "german": "einkaufen",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "kauft ein",
+            "praeteritum": "kaufte ein",
+            "perfekt": "hat eingekauft",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Einkauf", "english": "purchase", "relation": "nominalization" },
+            { "german": "kaufen", "english": "to buy", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich kaufe im Supermarkt ein.", "en": "I shop in the supermarket.", "verbForm": "praesens" },
+            { "de": "Sie kaufte am Samstag ein.", "en": "She went shopping on Saturday.", "verbForm": "praeteritum" },
+            { "de": "Wir haben für die Woche eingekauft.", "en": "We have shopped for the week.", "verbForm": "perfekt" }
+          ],
+          "topic": "Einkaufen",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to pay",
+          "german": "bezahlen",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "verb": {
+            "praesens": "bezahlt",
+            "praeteritum": "bezahlte",
+            "perfekt": "hat bezahlt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Zahlung", "english": "payment", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich bezahle mit Karte.", "en": "I pay by card.", "verbForm": "praesens" },
+            { "de": "Er bezahlte die Rechnung.", "en": "He paid the bill.", "verbForm": "praeteritum" },
+            { "de": "Sie hat das Brot bezahlt.", "en": "She has paid for the bread.", "verbForm": "perfekt" }
+          ],
+          "topic": "Einkaufen",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to cost",
+          "german": "kosten",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "verb": {
+            "praesens": "kostet",
+            "praeteritum": "kostete",
+            "perfekt": "hat gekostet",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Preis", "english": "price", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Brot kostet zwei Euro.", "en": "The bread costs two euros.", "verbForm": "praesens" },
+            { "de": "Die Jacke kostete viel Geld.", "en": "The jacket cost a lot of money.", "verbForm": "praeteritum" },
+            { "de": "Das hat zehn Euro gekostet.", "en": "That has cost ten euros.", "verbForm": "perfekt" }
+          ],
+          "topic": "Einkaufen",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "cheap, inexpensive",
+          "german": "günstig",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["teuer"],
+            "synonyms": ["billig"],
+            "comparative": "günstiger",
+            "superlative": "am günstigsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Hemd ist günstig.", "en": "The shirt is cheap." },
+            { "de": "Im Supermarkt ist das Brot günstiger.", "en": "In the supermarket the bread is cheaper." },
+            { "de": "Hier sind die Preise am günstigsten.", "en": "Here the prices are the cheapest." }
+          ],
+          "topic": "Einkaufen",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "free (of charge)",
+          "german": "kostenlos",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "synonyms": ["gratis"],
+            "comparative": "kostenloser",
+            "superlative": "am kostenlosesten"
+          },
+          "related": [
+            { "german": "kosten", "english": "to cost", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Eintritt ist kostenlos.", "en": "The entry is free." },
+            { "de": "Die Lieferung ist kostenlos.", "en": "The delivery is free." },
+            { "de": "Das Wasser im Restaurant ist kostenlos.", "en": "The water in the restaurant is free." }
+          ],
+          "topic": "Einkaufen",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

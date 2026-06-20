@@ -1,0 +1,201 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Technik",
+      "description": "German A1 starter deck — technology.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "computer",
+          "german": "Computer",
+          "vowelMarks": [],
+          "noun": { "gender": "masculine", "plural": "die Computer" },
+          "related": [
+            { "german": "das Programm", "english": "program", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Computer ist schnell.", "en": "The computer is fast." },
+            { "de": "Ich arbeite am Computer.", "en": "I work at the computer." },
+            { "de": "Die Computer sind im Büro.", "en": "The computers are in the office." }
+          ],
+          "topic": "Technik",
+          "tags": ["A1", "technology"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "cell phone, mobile",
+          "german": "Handy",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Handys" },
+          "related": [
+            { "german": "das Telefon", "english": "telephone", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Mein Handy ist kaputt.", "en": "My cell phone is broken." },
+            { "de": "Ich suche mein Handy.", "en": "I am looking for my cell phone." },
+            { "de": "Die Handys sind sehr modern.", "en": "The cell phones are very modern." }
+          ],
+          "topic": "Technik",
+          "tags": ["A1", "technology"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "telephone",
+          "german": "Telefon",
+          "vowelMarks": [{ "index": 5, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Telefone" },
+          "related": [
+            { "german": "telefonieren", "english": "to phone", "relation": "derived" }
+          ],
+          "examples": [
+            { "de": "Das Telefon klingelt.", "en": "The telephone is ringing." },
+            { "de": "Ich rufe dich am Telefon an.", "en": "I will call you on the telephone." },
+            { "de": "Die Telefone im Büro sind alt.", "en": "The telephones in the office are old." }
+          ],
+          "topic": "Technik",
+          "tags": ["A1", "technology"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "internet",
+          "german": "Internet",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "kein Plural" },
+          "related": [
+            { "german": "der Computer", "english": "computer", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Internet ist langsam.", "en": "The internet is slow." },
+            { "de": "Ich suche im Internet.", "en": "I search on the internet." },
+            { "de": "Ohne Internet kann ich nicht arbeiten.", "en": "Without internet I cannot work." }
+          ],
+          "topic": "Technik",
+          "tags": ["A1", "technology"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "program",
+          "german": "Programm",
+          "vowelMarks": [{ "index": 5, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Programme" },
+          "related": [
+            { "german": "der Computer", "english": "computer", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Programm funktioniert nicht.", "en": "The program does not work." },
+            { "de": "Ich installiere ein neues Programm.", "en": "I install a new program." },
+            { "de": "Die Programme sind kostenlos.", "en": "The programs are free." }
+          ],
+          "topic": "Technik",
+          "tags": ["A1", "technology"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to phone, to call",
+          "german": "telefonieren",
+          "vowelMarks": [{ "index": 7, "length": "long" }],
+          "verb": {
+            "praesens": "telefoniert",
+            "praeteritum": "telefonierte",
+            "perfekt": "hat telefoniert",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Telefon", "english": "telephone", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich telefoniere mit meiner Mutter.", "en": "I am on the phone with my mother.", "verbForm": "praesens" },
+            { "de": "Er telefonierte sehr lange.", "en": "He was on the phone for a long time.", "verbForm": "praeteritum" },
+            { "de": "Sie hat mit dem Arzt telefoniert.", "en": "She has phoned the doctor.", "verbForm": "perfekt" }
+          ],
+          "topic": "Technik",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to use",
+          "german": "benutzen",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "verb": {
+            "praesens": "benutzt",
+            "praeteritum": "benutzte",
+            "perfekt": "hat benutzt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Computer", "english": "computer", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich benutze den Computer jeden Tag.", "en": "I use the computer every day.", "verbForm": "praesens" },
+            { "de": "Sie benutzte das Handy.", "en": "She used the cell phone.", "verbForm": "praeteritum" },
+            { "de": "Wir haben das Programm benutzt.", "en": "We have used the program.", "verbForm": "perfekt" }
+          ],
+          "topic": "Technik",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to save, to store",
+          "german": "speichern",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "speichert",
+            "praeteritum": "speicherte",
+            "perfekt": "hat gespeichert",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Programm", "english": "program", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich speichere die Datei.", "en": "I save the file.", "verbForm": "praesens" },
+            { "de": "Er speicherte das Foto.", "en": "He saved the photo.", "verbForm": "praeteritum" },
+            { "de": "Sie hat das Dokument gespeichert.", "en": "She has saved the document.", "verbForm": "perfekt" }
+          ],
+          "topic": "Technik",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "modern",
+          "german": "modern",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "adjective": {
+            "opposites": ["altmodisch"],
+            "comparative": "moderner",
+            "superlative": "am modernsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Handy ist modern.", "en": "The cell phone is modern." },
+            { "de": "Dieser Computer ist moderner.", "en": "This computer is more modern." },
+            { "de": "Das ist das modernste Programm.", "en": "That is the most modern program." }
+          ],
+          "topic": "Technik",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "practical",
+          "german": "praktisch",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "adjective": {
+            "opposites": ["unpraktisch"],
+            "comparative": "praktischer",
+            "superlative": "am praktischsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Handy ist sehr praktisch.", "en": "The cell phone is very practical." },
+            { "de": "Ein Computer ist praktischer als ein Buch.", "en": "A computer is more practical than a book." },
+            { "de": "Das ist die praktischste Lösung.", "en": "That is the most practical solution." }
+          ],
+          "topic": "Technik",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

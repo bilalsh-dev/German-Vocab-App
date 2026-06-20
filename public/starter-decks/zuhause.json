@@ -1,0 +1,222 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Zuhause",
+      "description": "German A1 starter deck — home and living.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "house",
+          "german": "Haus",
+          "vowelMarks": [],
+          "noun": { "gender": "neuter", "plural": "die Häuser" },
+          "related": [
+            { "german": "die Wohnung", "english": "apartment", "relation": "related" },
+            { "german": "das Zimmer", "english": "room", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Haus ist groß.", "en": "The house is big." },
+            { "de": "Wir wohnen in einem alten Haus.", "en": "We live in an old house." },
+            { "de": "Die Häuser in der Stadt sind teuer.", "en": "The houses in the city are expensive." }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "home"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "apartment",
+          "german": "Wohnung",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": {
+            "gender": "feminine",
+            "plural": "die Wohnungen",
+            "genderEndingHint": "-ung → feminine"
+          },
+          "related": [
+            { "german": "wohnen", "english": "to live", "relation": "derived" },
+            { "german": "das Zimmer", "english": "room", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Meine Wohnung ist klein.", "en": "My apartment is small." },
+            { "de": "Die Wohnung hat drei Zimmer.", "en": "The apartment has three rooms." },
+            { "de": "Wir suchen eine neue Wohnung.", "en": "We are looking for a new apartment." }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "home"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "room",
+          "german": "Zimmer",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Zimmer" },
+          "related": [
+            { "german": "das Wohnzimmer", "english": "living room", "relation": "compound" },
+            { "german": "die Wohnung", "english": "apartment", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Mein Zimmer ist hell.", "en": "My room is bright." },
+            { "de": "Das Kind spielt in seinem Zimmer.", "en": "The child plays in its room." },
+            { "de": "Die Wohnung hat vier Zimmer.", "en": "The apartment has four rooms." }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "home"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "kitchen",
+          "german": "Küche",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Küchen" },
+          "related": [
+            { "german": "kochen", "english": "to cook", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Küche ist modern.", "en": "The kitchen is modern." },
+            { "de": "Ich koche in der Küche.", "en": "I cook in the kitchen." },
+            { "de": "Wir essen in der Küche.", "en": "We eat in the kitchen." }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "home"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "door",
+          "german": "Tür",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "die Türen" },
+          "related": [
+            { "german": "die Haustür", "english": "front door", "relation": "compound" }
+          ],
+          "examples": [
+            { "de": "Die Tür ist offen.", "en": "The door is open." },
+            { "de": "Bitte mach die Tür zu.", "en": "Please close the door." },
+            { "de": "Die Türen sind aus Holz.", "en": "The doors are made of wood." }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "home"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "window",
+          "german": "Fenster",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Fenster" },
+          "related": [
+            { "german": "die Tür", "english": "door", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Fenster ist groß.", "en": "The window is big." },
+            { "de": "Öffne bitte das Fenster.", "en": "Please open the window." },
+            { "de": "Die Fenster sind sauber.", "en": "The windows are clean." }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "home"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "table",
+          "german": "Tisch",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Tische" },
+          "related": [
+            { "german": "der Stuhl", "english": "chair", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Tisch ist aus Holz.", "en": "The table is made of wood." },
+            { "de": "Das Essen steht auf dem Tisch.", "en": "The food is on the table." },
+            { "de": "Wir sitzen am Tisch.", "en": "We sit at the table." }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "home"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to rent",
+          "german": "mieten",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "mietet",
+            "praeteritum": "mietete",
+            "perfekt": "hat gemietet",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Miete", "english": "rent", "relation": "nominalization" },
+            { "german": "die Wohnung", "english": "apartment", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich miete eine Wohnung in Berlin.", "en": "I rent an apartment in Berlin.", "verbForm": "praesens" },
+            { "de": "Letztes Jahr mietete er ein Zimmer.", "en": "Last year he rented a room.", "verbForm": "praeteritum" },
+            { "de": "Wir haben ein Haus gemietet.", "en": "We have rented a house.", "verbForm": "perfekt" }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to cook",
+          "german": "kochen",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "verb": {
+            "praesens": "kocht",
+            "praeteritum": "kochte",
+            "perfekt": "hat gekocht",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Küche", "english": "kitchen", "relation": "related" },
+            { "german": "das Essen", "english": "food", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Meine Mutter kocht das Essen.", "en": "My mother cooks the food.", "verbForm": "praesens" },
+            { "de": "Gestern kochte ich eine Suppe.", "en": "Yesterday I cooked a soup.", "verbForm": "praeteritum" },
+            { "de": "Er hat Nudeln gekocht.", "en": "He has cooked pasta.", "verbForm": "perfekt" }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "new",
+          "german": "neu",
+          "vowelMarks": [],
+          "adjective": {
+            "opposites": ["alt"],
+            "comparative": "neuer",
+            "superlative": "am neuesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Die Wohnung ist neu.", "en": "The apartment is new." },
+            { "de": "Mein Haus ist neuer als deins.", "en": "My house is newer than yours." },
+            { "de": "Das ist das neueste Modell.", "en": "That is the newest model." }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "small",
+          "german": "klein",
+          "vowelMarks": [],
+          "adjective": {
+            "opposites": ["groß"],
+            "comparative": "kleiner",
+            "superlative": "am kleinsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Zimmer ist klein.", "en": "The room is small." },
+            { "de": "Meine Wohnung ist kleiner als deine.", "en": "My apartment is smaller than yours." },
+            { "de": "Das ist das kleinste Haus.", "en": "That is the smallest house." }
+          ],
+          "topic": "Zuhause",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

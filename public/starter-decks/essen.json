@@ -1,0 +1,217 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Essen & Trinken",
+      "description": "German A1 starter deck — food and drinks.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "bread",
+          "german": "Brot",
+          "vowelMarks": [{ "index": 2, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Brote" },
+          "related": [
+            { "german": "das Brötchen", "english": "bread roll", "relation": "derived" }
+          ],
+          "examples": [
+            { "de": "Das Brot ist frisch.", "en": "The bread is fresh." },
+            { "de": "Ich esse Brot zum Frühstück.", "en": "I eat bread for breakfast." },
+            { "de": "Wir kaufen zwei Brote.", "en": "We buy two loaves of bread." }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "food"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "water",
+          "german": "Wasser",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Wasser" },
+          "related": [
+            { "german": "das Getränk", "english": "drink", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich trinke gern Wasser.", "en": "I like to drink water." },
+            { "de": "Das Wasser ist kalt.", "en": "The water is cold." },
+            { "de": "Ein Glas Wasser, bitte.", "en": "A glass of water, please." }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "drink"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "apple",
+          "german": "Apfel",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Äpfel" },
+          "related": [
+            { "german": "das Obst", "english": "fruit", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Apfel ist rot.", "en": "The apple is red." },
+            { "de": "Ich esse jeden Tag einen Apfel.", "en": "I eat an apple every day." },
+            { "de": "Die Äpfel sind süß.", "en": "The apples are sweet." }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "food"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "milk",
+          "german": "Milch",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Milch" },
+          "related": [
+            { "german": "der Kaffee", "english": "coffee", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Milch ist im Kühlschrank.", "en": "The milk is in the fridge." },
+            { "de": "Ich trinke Kaffee mit Milch.", "en": "I drink coffee with milk." },
+            { "de": "Die Kinder trinken jeden Morgen Milch.", "en": "The children drink milk every morning." }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "drink"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "food, meal",
+          "german": "Essen",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Essen" },
+          "related": [
+            { "german": "essen", "english": "to eat", "relation": "nominalization" },
+            { "german": "die Küche", "english": "kitchen", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Essen ist lecker.", "en": "The food is tasty." },
+            { "de": "Das Essen steht auf dem Tisch.", "en": "The food is on the table." },
+            { "de": "Wir kochen das Essen zusammen.", "en": "We cook the meal together." }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "food"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "drink, beverage",
+          "german": "Getränk",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Getränke" },
+          "related": [
+            { "german": "trinken", "english": "to drink", "relation": "derived" }
+          ],
+          "examples": [
+            { "de": "Möchtest du ein Getränk?", "en": "Would you like a drink?" },
+            { "de": "Das Getränk ist zu süß.", "en": "The drink is too sweet." },
+            { "de": "Wir kaufen Getränke für die Party.", "en": "We buy drinks for the party." }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "drink"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to eat",
+          "german": "essen",
+          "vowelMarks": [{ "index": 0, "length": "short" }],
+          "verb": {
+            "praesens": "isst",
+            "praeteritum": "aß",
+            "perfekt": "hat gegessen",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Essen", "english": "food", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Er isst einen Apfel.", "en": "He eats an apple.", "verbForm": "praesens" },
+            { "de": "Gestern aß ich eine Pizza.", "en": "Yesterday I ate a pizza.", "verbForm": "praeteritum" },
+            { "de": "Wir haben zu Mittag gegessen.", "en": "We have eaten lunch.", "verbForm": "perfekt" }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to drink",
+          "german": "trinken",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "verb": {
+            "praesens": "trinkt",
+            "praeteritum": "trank",
+            "perfekt": "hat getrunken",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Getränk", "english": "drink", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Sie trinkt ein Glas Wasser.", "en": "She drinks a glass of water.", "verbForm": "praesens" },
+            { "de": "Er trank einen Kaffee.", "en": "He drank a coffee.", "verbForm": "praeteritum" },
+            { "de": "Ich habe Tee getrunken.", "en": "I have drunk tea.", "verbForm": "perfekt" }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "tasty",
+          "german": "lecker",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["eklig"],
+            "synonyms": ["köstlich"],
+            "comparative": "leckerer",
+            "superlative": "am leckersten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Brot ist lecker.", "en": "The bread is tasty." },
+            { "de": "Dieser Kuchen ist leckerer als der andere.", "en": "This cake is tastier than the other." },
+            { "de": "Das ist das leckerste Essen.", "en": "That is the tastiest food." }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "cold",
+          "german": "kalt",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["warm"],
+            "comparative": "kälter",
+            "superlative": "am kältesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Wasser ist kalt.", "en": "The water is cold." },
+            { "de": "Heute ist es kälter als gestern.", "en": "Today it is colder than yesterday." },
+            { "de": "Das ist das kälteste Getränk.", "en": "That is the coldest drink." }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "sweet",
+          "german": "süß",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "adjective": {
+            "opposites": ["sauer"],
+            "comparative": "süßer",
+            "superlative": "am süßesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Der Apfel ist süß.", "en": "The apple is sweet." },
+            { "de": "Dieser Kaffee ist süßer als der andere.", "en": "This coffee is sweeter than the other." },
+            { "de": "Das ist der süßeste Kuchen.", "en": "That is the sweetest cake." }
+          ],
+          "topic": "Essen",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

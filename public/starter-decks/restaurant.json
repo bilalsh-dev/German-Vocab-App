@@ -1,0 +1,209 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Restaurant",
+      "description": "German A2 starter deck — eating out.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "restaurant",
+          "german": "Restaurant",
+          "vowelMarks": [],
+          "noun": { "gender": "neuter", "plural": "die Restaurants" },
+          "related": [
+            { "german": "bestellen", "english": "to order", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Restaurant ist sehr gut.", "en": "The restaurant is very good." },
+            { "de": "Wir essen heute im Restaurant.", "en": "We are eating in the restaurant today." },
+            { "de": "Die Restaurants sind am Wochenende voll.", "en": "The restaurants are full on the weekend." }
+          ],
+          "topic": "Restaurant",
+          "tags": ["A2", "food"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "bill, invoice",
+          "german": "Rechnung",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": {
+            "gender": "feminine",
+            "plural": "die Rechnungen",
+            "genderEndingHint": "-ung → feminine"
+          },
+          "related": [
+            { "german": "bezahlen", "english": "to pay", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Rechnung, bitte!", "en": "The bill, please!" },
+            { "de": "Die Rechnung ist hoch.", "en": "The bill is high." },
+            { "de": "Wir teilen die Rechnung.", "en": "We split the bill." }
+          ],
+          "topic": "Restaurant",
+          "tags": ["A2", "food"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "waiter",
+          "german": "Kellner",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "die Kellner",
+            "genderEndingHint": "-er (agent noun) → masculine"
+          },
+          "related": [
+            { "german": "der Gast", "english": "guest", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Kellner bringt das Essen.", "en": "The waiter brings the food." },
+            { "de": "Ich rufe den Kellner.", "en": "I call the waiter." },
+            { "de": "Die Kellner sind sehr freundlich.", "en": "The waiters are very friendly." }
+          ],
+          "topic": "Restaurant",
+          "tags": ["A2", "food"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "guest",
+          "german": "Gast",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Gäste" },
+          "related": [
+            { "german": "der Kellner", "english": "waiter", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Gast bestellt eine Suppe.", "en": "The guest orders a soup." },
+            { "de": "Wir haben heute einen Gast.", "en": "We have a guest today." },
+            { "de": "Die Gäste sitzen am Tisch.", "en": "The guests sit at the table." }
+          ],
+          "topic": "Restaurant",
+          "tags": ["A2", "food"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "tip (gratuity)",
+          "german": "Trinkgeld",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "noun": { "gender": "neuter", "plural": "die Trinkgelder" },
+          "related": [
+            { "german": "das Geld", "english": "money", "relation": "compound" }
+          ],
+          "examples": [
+            { "de": "Das Trinkgeld ist für den Kellner.", "en": "The tip is for the waiter." },
+            { "de": "Wir geben fünf Euro Trinkgeld.", "en": "We give five euros tip." },
+            { "de": "In Deutschland ist Trinkgeld üblich.", "en": "In Germany a tip is common." }
+          ],
+          "topic": "Restaurant",
+          "tags": ["A2", "food"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "order",
+          "german": "Bestellung",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "noun": {
+            "gender": "feminine",
+            "plural": "die Bestellungen",
+            "genderEndingHint": "-ung → feminine"
+          },
+          "related": [
+            { "german": "bestellen", "english": "to order", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Die Bestellung kommt gleich.", "en": "The order is coming soon." },
+            { "de": "Der Kellner nimmt die Bestellung auf.", "en": "The waiter takes the order." },
+            { "de": "Die Bestellungen sind heute groß.", "en": "The orders are large today." }
+          ],
+          "topic": "Restaurant",
+          "tags": ["A2", "food"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to order",
+          "german": "bestellen",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "verb": {
+            "praesens": "bestellt",
+            "praeteritum": "bestellte",
+            "perfekt": "hat bestellt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Bestellung", "english": "order", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich bestelle eine Pizza.", "en": "I order a pizza.", "verbForm": "praesens" },
+            { "de": "Er bestellte einen Kaffee.", "en": "He ordered a coffee.", "verbForm": "praeteritum" },
+            { "de": "Wir haben das Essen bestellt.", "en": "We have ordered the food.", "verbForm": "perfekt" }
+          ],
+          "topic": "Restaurant",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to taste (good)",
+          "german": "schmecken",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "verb": {
+            "praesens": "schmeckt",
+            "praeteritum": "schmeckte",
+            "perfekt": "hat geschmeckt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "lecker", "english": "tasty", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Essen schmeckt sehr gut.", "en": "The food tastes very good.", "verbForm": "praesens" },
+            { "de": "Die Suppe schmeckte lecker.", "en": "The soup tasted delicious.", "verbForm": "praeteritum" },
+            { "de": "Das Essen hat allen geschmeckt.", "en": "The food tasted good to everyone.", "verbForm": "perfekt" }
+          ],
+          "topic": "Restaurant",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "full (satiated)",
+          "german": "satt",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["hungrig"],
+            "comparative": "satter",
+            "superlative": "am sattesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Ich bin satt.", "en": "I am full." },
+            { "de": "Nach dem Essen bin ich satter.", "en": "After the meal I am fuller." },
+            { "de": "Nach dem Kuchen war ich am sattesten.", "en": "After the cake I was the fullest." }
+          ],
+          "topic": "Restaurant",
+          "tags": ["A2", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "delicious",
+          "german": "köstlich",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "adjective": {
+            "opposites": ["eklig"],
+            "synonyms": ["lecker"],
+            "comparative": "köstlicher",
+            "superlative": "am köstlichsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Essen ist köstlich.", "en": "The food is delicious." },
+            { "de": "Der Kuchen ist köstlicher als das Brot.", "en": "The cake is more delicious than the bread." },
+            { "de": "Das ist das köstlichste Gericht.", "en": "That is the most delicious dish." }
+          ],
+          "topic": "Restaurant",
+          "tags": ["A2", "adjective"]
+        }
+      ]
+    }
+  ]
+}

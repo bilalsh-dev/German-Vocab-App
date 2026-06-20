@@ -1,0 +1,229 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Schule",
+      "description": "German A1 starter deck — school.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "school",
+          "german": "Schule",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "die Schulen" },
+          "related": [
+            { "german": "der Schüler", "english": "pupil", "relation": "derived" },
+            { "german": "lernen", "english": "to learn", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Schule beginnt um acht Uhr.", "en": "School begins at eight o'clock." },
+            { "de": "Mein Kind geht in die Schule.", "en": "My child goes to school." },
+            { "de": "Die Schulen sind im Sommer geschlossen.", "en": "The schools are closed in summer." }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "school"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "teacher",
+          "german": "Lehrer",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "die Lehrer",
+            "genderEndingHint": "-er (agent noun) → masculine"
+          },
+          "related": [
+            { "german": "der Schüler", "english": "pupil", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Lehrer erklärt die Aufgabe.", "en": "The teacher explains the task." },
+            { "de": "Mein Lehrer ist sehr nett.", "en": "My teacher is very nice." },
+            { "de": "Die Lehrer arbeiten in der Schule.", "en": "The teachers work at the school." }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "school"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "pupil, student",
+          "german": "Schüler",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": {
+            "gender": "masculine",
+            "plural": "die Schüler",
+            "genderEndingHint": "-er (agent noun) → masculine"
+          },
+          "related": [
+            { "german": "die Schule", "english": "school", "relation": "derived" }
+          ],
+          "examples": [
+            { "de": "Der Schüler macht seine Hausaufgaben.", "en": "The pupil does his homework." },
+            { "de": "Die Schüler lesen ein Buch.", "en": "The pupils read a book." },
+            { "de": "Jeder Schüler hat ein Heft.", "en": "Every pupil has a notebook." }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "school"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "book",
+          "german": "Buch",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Bücher" },
+          "related": [
+            { "german": "lesen", "english": "to read", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Buch ist interessant.", "en": "The book is interesting." },
+            { "de": "Ich lese ein Buch.", "en": "I read a book." },
+            { "de": "Die Bücher liegen auf dem Tisch.", "en": "The books are on the table." }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "school"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "pen",
+          "german": "Stift",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Stifte" },
+          "related": [
+            { "german": "schreiben", "english": "to write", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Stift schreibt blau.", "en": "The pen writes in blue." },
+            { "de": "Ich brauche einen Stift.", "en": "I need a pen." },
+            { "de": "Die Stifte sind in der Tasche.", "en": "The pens are in the bag." }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "school"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "task, exercise",
+          "german": "Aufgabe",
+          "vowelMarks": [{ "index": 4, "length": "long" }],
+          "noun": { "gender": "feminine", "plural": "die Aufgaben" },
+          "related": [
+            { "german": "die Hausaufgabe", "english": "homework", "relation": "compound" }
+          ],
+          "examples": [
+            { "de": "Die Aufgabe ist schwierig.", "en": "The task is difficult." },
+            { "de": "Ich mache die Aufgabe.", "en": "I do the task." },
+            { "de": "Die Aufgaben sind einfach.", "en": "The tasks are easy." }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "school"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to learn",
+          "german": "lernen",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "verb": {
+            "praesens": "lernt",
+            "praeteritum": "lernte",
+            "perfekt": "hat gelernt",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Schule", "english": "school", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich lerne Deutsch.", "en": "I learn German.", "verbForm": "praesens" },
+            { "de": "Er lernte Englisch in der Schule.", "en": "He learned English at school.", "verbForm": "praeteritum" },
+            { "de": "Wir haben viel gelernt.", "en": "We have learned a lot.", "verbForm": "perfekt" }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to read",
+          "german": "lesen",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "liest",
+            "praeteritum": "las",
+            "perfekt": "hat gelesen",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "das Buch", "english": "book", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Sie liest ein Buch.", "en": "She reads a book.", "verbForm": "praesens" },
+            { "de": "Ich las die Zeitung.", "en": "I read the newspaper.", "verbForm": "praeteritum" },
+            { "de": "Er hat den Text gelesen.", "en": "He has read the text.", "verbForm": "perfekt" }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to write",
+          "german": "schreiben",
+          "vowelMarks": [],
+          "verb": {
+            "praesens": "schreibt",
+            "praeteritum": "schrieb",
+            "perfekt": "hat geschrieben",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Stift", "english": "pen", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Ich schreibe einen Brief.", "en": "I write a letter.", "verbForm": "praesens" },
+            { "de": "Sie schrieb eine E-Mail.", "en": "She wrote an email.", "verbForm": "praeteritum" },
+            { "de": "Wir haben einen Test geschrieben.", "en": "We have written a test.", "verbForm": "perfekt" }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "easy, simple",
+          "german": "einfach",
+          "vowelMarks": [{ "index": 4, "length": "short" }],
+          "adjective": {
+            "opposites": ["schwierig"],
+            "synonyms": ["leicht"],
+            "comparative": "einfacher",
+            "superlative": "am einfachsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Die Aufgabe ist einfach.", "en": "The task is easy." },
+            { "de": "Diese Übung ist einfacher.", "en": "This exercise is easier." },
+            { "de": "Das ist die einfachste Lösung.", "en": "That is the easiest solution." }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "difficult",
+          "german": "schwierig",
+          "vowelMarks": [{ "index": 4, "length": "long" }],
+          "adjective": {
+            "opposites": ["einfach"],
+            "synonyms": ["schwer"],
+            "comparative": "schwieriger",
+            "superlative": "am schwierigsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Die Prüfung ist schwierig.", "en": "The exam is difficult." },
+            { "de": "Deutsch ist schwieriger als Englisch.", "en": "German is more difficult than English." },
+            { "de": "Das ist die schwierigste Aufgabe.", "en": "That is the most difficult task." }
+          ],
+          "topic": "Schule",
+          "tags": ["A1", "adjective"]
+        }
+      ]
+    }
+  ]
+}

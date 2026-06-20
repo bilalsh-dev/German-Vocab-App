@@ -1,0 +1,197 @@
+{
+  "format": "wortbox",
+  "version": 1,
+  "decks": [
+    {
+      "name": "Stadt",
+      "description": "German A2 starter deck — city and places.",
+      "cards": [
+        {
+          "partOfSpeech": "noun",
+          "english": "city, town",
+          "german": "Stadt",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Städte" },
+          "related": [
+            { "german": "das Land", "english": "country", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Stadt ist groß und laut.", "en": "The city is big and loud." },
+            { "de": "Ich wohne gern in der Stadt.", "en": "I like living in the city." },
+            { "de": "Die Städte in Deutschland sind schön.", "en": "The cities in Germany are beautiful." }
+          ],
+          "topic": "Stadt",
+          "tags": ["A2", "city"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "church",
+          "german": "Kirche",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "feminine", "plural": "die Kirchen" },
+          "related": [
+            { "german": "der Platz", "english": "square", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Die Kirche ist sehr alt.", "en": "The church is very old." },
+            { "de": "Die Kirche steht im Zentrum.", "en": "The church is in the center." },
+            { "de": "Wir besuchen die alten Kirchen.", "en": "We visit the old churches." }
+          ],
+          "topic": "Stadt",
+          "tags": ["A2", "city"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "market",
+          "german": "Markt",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Märkte" },
+          "related": [
+            { "german": "einkaufen", "english": "to shop", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Markt ist am Samstag.", "en": "The market is on Saturday." },
+            { "de": "Ich kaufe Obst auf dem Markt.", "en": "I buy fruit at the market." },
+            { "de": "Die Märkte sind sehr beliebt.", "en": "The markets are very popular." }
+          ],
+          "topic": "Stadt",
+          "tags": ["A2", "city"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "square, place",
+          "german": "Platz",
+          "vowelMarks": [{ "index": 2, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Plätze" },
+          "related": [
+            { "german": "die Stadt", "english": "city", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Platz ist im Zentrum.", "en": "The square is in the center." },
+            { "de": "Auf dem Platz ist ein Markt.", "en": "There is a market on the square." },
+            { "de": "Die Plätze in der Stadt sind schön.", "en": "The squares in the city are beautiful." }
+          ],
+          "topic": "Stadt",
+          "tags": ["A2", "city"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "museum",
+          "german": "Museum",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "noun": { "gender": "neuter", "plural": "die Museen" },
+          "related": [
+            { "german": "besuchen", "english": "to visit", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Das Museum ist heute geschlossen.", "en": "The museum is closed today." },
+            { "de": "Wir besuchen ein Museum.", "en": "We visit a museum." },
+            { "de": "Die Museen in Berlin sind berühmt.", "en": "The museums in Berlin are famous." }
+          ],
+          "topic": "Stadt",
+          "tags": ["A2", "city"]
+        },
+        {
+          "partOfSpeech": "noun",
+          "english": "park",
+          "german": "Park",
+          "vowelMarks": [{ "index": 1, "length": "short" }],
+          "noun": { "gender": "masculine", "plural": "die Parks" },
+          "related": [
+            { "german": "laufen", "english": "to run", "relation": "related" }
+          ],
+          "examples": [
+            { "de": "Der Park ist sehr grün.", "en": "The park is very green." },
+            { "de": "Wir gehen im Park spazieren.", "en": "We go for a walk in the park." },
+            { "de": "Die Parks sind im Sommer voll.", "en": "The parks are full in summer." }
+          ],
+          "topic": "Stadt",
+          "tags": ["A2", "city"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to visit",
+          "german": "besuchen",
+          "vowelMarks": [{ "index": 3, "length": "long" }],
+          "verb": {
+            "praesens": "besucht",
+            "praeteritum": "besuchte",
+            "perfekt": "hat besucht",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "der Besuch", "english": "visit", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich besuche das Museum.", "en": "I visit the museum.", "verbForm": "praesens" },
+            { "de": "Sie besuchte ihre Familie.", "en": "She visited her family.", "verbForm": "praeteritum" },
+            { "de": "Wir haben die Stadt besucht.", "en": "We have visited the city.", "verbForm": "perfekt" }
+          ],
+          "topic": "Stadt",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "verb",
+          "english": "to look for, to search",
+          "german": "suchen",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "verb": {
+            "praesens": "sucht",
+            "praeteritum": "suchte",
+            "perfekt": "hat gesucht",
+            "auxiliary": "haben"
+          },
+          "related": [
+            { "german": "die Suche", "english": "search", "relation": "nominalization" }
+          ],
+          "examples": [
+            { "de": "Ich suche den Bahnhof.", "en": "I am looking for the station.", "verbForm": "praesens" },
+            { "de": "Er suchte eine Wohnung.", "en": "He was looking for an apartment.", "verbForm": "praeteritum" },
+            { "de": "Sie hat die Adresse gesucht.", "en": "She has looked for the address.", "verbForm": "perfekt" }
+          ],
+          "topic": "Stadt",
+          "tags": ["A2", "verb"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "calm, quiet",
+          "german": "ruhig",
+          "vowelMarks": [{ "index": 1, "length": "long" }],
+          "adjective": {
+            "opposites": ["laut"],
+            "comparative": "ruhiger",
+            "superlative": "am ruhigsten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Dorf ist ruhig.", "en": "The village is calm." },
+            { "de": "Diese Straße ist ruhiger als der Platz.", "en": "This street is quieter than the square." },
+            { "de": "Im Park ist es am ruhigsten.", "en": "In the park it is the quietest." }
+          ],
+          "topic": "Stadt",
+          "tags": ["A2", "adjective"]
+        },
+        {
+          "partOfSpeech": "adjective",
+          "english": "well-known, famous",
+          "german": "bekannt",
+          "vowelMarks": [{ "index": 3, "length": "short" }],
+          "adjective": {
+            "opposites": ["unbekannt"],
+            "synonyms": ["berühmt"],
+            "comparative": "bekannter",
+            "superlative": "am bekanntesten"
+          },
+          "related": [],
+          "examples": [
+            { "de": "Das Museum ist sehr bekannt.", "en": "The museum is very well known." },
+            { "de": "Diese Stadt ist bekannter als das Dorf.", "en": "This city is more famous than the village." },
+            { "de": "Das ist der bekannteste Platz der Stadt.", "en": "That is the most famous square in the city." }
+          ],
+          "topic": "Stadt",
+          "tags": ["A2", "adjective"]
+        }
+      ]
+    }
+  ]
+}
